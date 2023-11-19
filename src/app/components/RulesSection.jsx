@@ -31,6 +31,13 @@ const RulesSection = () => {
           been eliminated from the tournament. However, this rule does not apply
           in the final bracket.
         </li>
+        <li>
+          Each match in the tournament is a best-of-three format. The first two
+          games are chosen by the players from a specific list of maps/rules
+          available on the website. The final game, if necessary, will be set
+          according to rules posted in the Tournament News section on the
+          website for each round.
+        </li>
       </ul>
 
       <h3 className="cool-gradient-text text-xl font-bold">Game Settings:</h3>
@@ -39,7 +46,7 @@ const RulesSection = () => {
         <li>All Off means all settings in the game are turned off.</li>
         <li>
           If a map has its own specific rules, these override the general rules.
-          (Map rules have bigger prior then General Rules)
+          (Map rules have higher priority than General Rules)
         </li>
         <li>
           The nobuynosell rule indicates that buying and selling are not
@@ -48,6 +55,10 @@ const RulesSection = () => {
         <li>
           Catapults against troops are not allowed unless explicitly permitted
           in the rules.
+        </li>
+        <li>
+          The use of Balista 1 hit and Long Trebs Bug is permitted unless
+          explicitly disallowed in the map-specific rules.
         </li>
       </ul>
 

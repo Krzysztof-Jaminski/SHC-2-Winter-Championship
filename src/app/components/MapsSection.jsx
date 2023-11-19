@@ -6,63 +6,64 @@ const MapsSection = () => {
       mapName: "Grasslandss",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2906762318",
-      rules: "7500 gold/high resources/army limit 250/all off",
+      rules: "10 PT/2500 gold/high resources/army limit 333 133/all on",
     },
     {
       imgUrl: "./images/maps/AroundTheVolcano.jpg",
       mapName: "Around the Volcano",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2999159228",
-      rules: "7500 gold/high resources/army limit 250/all on",
+      rules: "15 PT/1500 gold/medium resources/army limit 333 133/all on",
     },
     {
       imgUrl: "./images/maps/TheRiver.jpg",
       mapName: "The River",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2946018870",
-      rules: "1500 gold/medium resources/army limit 250/all on",
+      rules: "5 PT/7500 gold/high resources/army limit 333 133/all on",
     },
     {
       imgUrl: "./images/maps/MountainRange.jpg",
       mapName: "Mountain Range",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2946124818",
-      rules: "3750 gold/medium resources/army limit 333/all on",
+      rules: "15 PT/500 gold/medium resources/army limit 333 133/all off",
     },
     {
       imgUrl: "./images/maps/DIS.jpg",
       mapName: "Death in the Sand",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3017987658",
-      rules: "1000 gold/medium resources/army limit 333/all on",
+      rules: "500 gold, low goods, 5 peace, all on",
     },
     {
       imgUrl: "./images/maps/LakeAndHill.jpg",
       mapName: "Lake and Hill",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2999173656",
-      rules: "3750 gold/medium resources/army limit 333/all off",
+      rules: "5 PT/3750 gold/medium resources/army limit 333 133/all off",
     },
     {
       imgUrl: "./images/maps/StonePass.jpg",
       mapName: "Stone Pass",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2946136152",
-      rules: "1000 gold/medium resources/army limit 250/all on",
+      rules: "15 PT/1000 gold/high resources/army limit 333 133/all oon",
     },
     {
       imgUrl: "./images/maps/TheColosseum.jpg",
       mapName: "The Colosseum",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3038271591",
-      rules: "500 gold/low resources/army limit 333/all off",
+      rules:
+        " 1k gold, very high goods, no peace, no burning cart, no trebuchets, no buy, 250 army limit",
     },
     {
       imgUrl: "./images/maps/Cauldron.jpg",
       mapName: "Cauldron",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3042564329",
-      rules: "7500 gold/high resources/army limit 250/all on",
+      rules: "1k gold, medium goods, no peace, all on",
     },
     {
       imgUrl: "./images/maps/BarrenLands.jpg",
@@ -76,21 +77,23 @@ const MapsSection = () => {
       mapName: "Desert Winds",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3013753337",
-      rules: "3750 gold/medium resources/army limit 333/all on",
+      rules: "250 gold/no goods/5 peace/all on",
     },
     {
       imgUrl: "./images/maps/DuelInTheMiddle.jpg",
       mapName: "Duel in the Middle (No Barricades)",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3039932229",
-      rules: "1000 gold/medium resources/army limit 250/all on",
+      rules:
+        "1.5k gold, high goods,10 peace, all on, no barricades, 100 build limit",
     },
     {
       imgUrl: "./images/maps/Galatia.jpg",
       mapName: "Galatia",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3017613417",
-      rules: "7500 gold/high resources/army limit 250/all off",
+      rules:
+        "100 gold, very low goods, 15 peace, no burning carts, no barricades, no man traps",
     },
     {
       imgUrl: "./images/maps/IgiBalance.jpg",
@@ -111,21 +114,24 @@ const MapsSection = () => {
       mapName: "Oasis",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3017020566",
-      rules: "1000 gold/medium resources/army limit 250/all off",
+      rules:
+        "1.5k gold, medium goods, 15 pt, no trebuchets, no fire, no towers",
     },
     {
       imgUrl: "./images/maps/Mars1vs1With2Villages.jpg",
       mapName: "Mars 1vs1 with 2 Villages",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3013790174",
-      rules: "1500 gold/medium resources/army limit 333/all on",
+      rules:
+        "7.5k gold, very high goods, 10 peace, all on, no buy weapons, 100 build limit 250",
     },
     {
       imgUrl: "./images/maps/MarsWood.jpg",
       mapName: "Mars Wood",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3015342283",
-      rules: "500 gold/low resources/army limit 333/all off",
+      rules:
+        "no gold, medium resources, very low food, very high weapons, no peace, all on, no trade",
     },
     {
       imgUrl: "./images/maps/RushToTheVillages.jpg",
