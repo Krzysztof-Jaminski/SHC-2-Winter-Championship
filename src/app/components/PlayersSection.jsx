@@ -11,11 +11,10 @@ const PlayersSection = () => {
     "Albercikk",
     "Hakerxus",
     "Ahmed",
-    "Lord Stark",
-    "Stalin",
-    "Illyrian",
     "Chezzi",
     "Thunder",
+    "Stalin",
+    "Illyrian",
     "Asluk",
   ];
 
