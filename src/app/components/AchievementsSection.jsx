@@ -11,6 +11,7 @@ const AnimatedNumbers = dynamic(
 
 const playersCount = 32; // Example number of players
 const mapsCount = 21; // Example number of maps
+const numberOfMatches = 71; // Example number of matches
 
 const achievementsList = [
   {
@@ -22,8 +23,8 @@ const achievementsList = [
     value: mapsCount.toString(),
   },
   {
-    metric: "Expected Games",
-    value: (2 * playersCount - 2).toString(), // Approximate formula for double elimination
+    metric: "Expected Matches",
+    value: numberOfMatches.toString(),
   },
 ];
 
