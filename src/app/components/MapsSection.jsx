@@ -30,7 +30,7 @@ const MapsSection = () => {
       rules: "3750 gold/medium resources/army limit 333/all on",
     },
     {
-      imgUrl: "./images/maps/DeathInTheSand.jpg",
+      imgUrl: "./images/maps/DIS.jpg",
       mapName: "Death in the Sand",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3017987658",
@@ -100,7 +100,7 @@ const MapsSection = () => {
       rules: "1500 gold/medium resources/army limit 333/all on",
     },
     {
-      imgUrl: "./images/maps/WarOfTheKnights.jpg",
+      imgUrl: "./images/maps/WOK.jpg",
       mapName: "War of the Knights",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2950624315",
