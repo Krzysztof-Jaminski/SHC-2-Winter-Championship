@@ -124,7 +124,7 @@ const MapsSection = () => {
       mapName: "Rush to the Villages",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3016653093",
-      rules: "3750 gold/medium resources/army limit 250/all on",
+      rules: "7500 gold,high resources,5 peace time,army limit 333,all on",
     },
     {
       imgUrl: "./images/maps/Fernir.jpg",
