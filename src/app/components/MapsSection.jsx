@@ -44,13 +44,6 @@ const MapsSection = () => {
       rules: "5 PT/3750 gold/medium resources/army limit 333 133/all off",
     },
     {
-      imgUrl: "./images/maps/StonePass.jpg",
-      mapName: "Stone Pass",
-      steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=2946136152",
-      rules: "15 PT/1000 gold/high resources/army limit 333 133/all oon",
-    },
-    {
       imgUrl: "./images/maps/TheColosseum.jpg",
       mapName: "The Colosseum",
       steamUrl:
@@ -103,13 +96,6 @@ const MapsSection = () => {
       rules: "1500 gold/medium resources/army limit 333/all on",
     },
     {
-      imgUrl: "./images/maps/WOK.jpg",
-      mapName: "War of the Knights",
-      steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=2950624315",
-      rules: "1500 gold/medium resources/army limit 333/all off",
-    },
-    {
       imgUrl: "./images/maps/Oasis.jpg",
       mapName: "Oasis",
       steamUrl:
@@ -141,13 +127,6 @@ const MapsSection = () => {
       rules: "3750 gold/medium resources/army limit 250/all on",
     },
     {
-      imgUrl: "./images/maps/SandHills.jpg",
-      mapName: "Sand Hills",
-      steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=2950605763",
-      rules: "1000 gold/medium resources/army limit 333/all on",
-    },
-    {
       imgUrl: "./images/maps/Fernir.jpg",
       mapName: "Fernir",
       steamUrl:
@@ -165,7 +144,7 @@ const MapsSection = () => {
       imgUrl: "./images/maps/nobuynosell.jpg",
       mapName: "Nobuynosell",
       steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=2862468655",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3090162375",
       rules: "1000 gold/medium resources/army limit 333/all off",
     },
     {
