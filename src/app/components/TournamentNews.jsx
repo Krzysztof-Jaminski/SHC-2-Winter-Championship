@@ -18,7 +18,7 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
       <div className="text-center">
         <p className="cool-gradient-text text-xl font-bold">
-          20.11.2023: Registration Opens
+          21.11.2023: Registration Opens
         </p>
         <p className="text-lg mt-4 mb-6">
           Registration for the tournament begins. Get ready to compete!

@@ -109,7 +109,7 @@ const MapsSection = () => {
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3013790174",
       rules:
-        "7.5k gold, very high goods, 10 peace, all on, no buy weapons, 100 build limit 250",
+        "7.5k gold, very high goods, 10 peace, all on, no buy weapons, 100 build limit 250 catapults vs troops allowed",
     },
     {
       imgUrl: "./images/maps/MarsWood.jpg",
@@ -131,21 +131,23 @@ const MapsSection = () => {
       mapName: "Fernir",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3084023988",
-      rules: "3750 gold/medium resources/army limit 250/all on",
+      rules:
+        "500 gold/medium resources/ 5 peace time / army limit 333/all on/no buy no sell",
     },
     {
       imgUrl: "./images/maps/MoonMap.jpg",
       mapName: "MoonMap",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3084246818",
-      rules: "1500 gold/medium resources/army limit 333/all on",
+      rules: "2.5k gold, high goods, 5 peace, all on, cata vs troops allowed",
     },
     {
       imgUrl: "./images/maps/nobuynosell.jpg",
       mapName: "Nobuynosell",
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3090162375",
-      rules: "1000 gold/medium resources/army limit 333/all off",
+      rules:
+        "500 gold/high resources/ 5 peace time / army limit 333/all off/ no buy no sell / ",
     },
     {
       imgUrl: "./images/maps/Lowland.jpg",
