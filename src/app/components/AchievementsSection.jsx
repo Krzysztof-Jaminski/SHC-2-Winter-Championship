@@ -10,7 +10,7 @@ const AnimatedNumbers = dynamic(
 );
 
 const playersCount = 32; // Example number of players
-const mapsCount = 21; // Example number of maps
+const mapsCount = 18; // Example number of maps
 const numberOfMatches = 71; // Example number of matches
 
 const achievementsList = [
@@ -19,7 +19,7 @@ const achievementsList = [
     value: playersCount.toString(),
   },
   {
-    metric: "New Maps",
+    metric: "Map Rule Sets",
     value: mapsCount.toString(),
   },
   {

@@ -1,4 +1,5 @@
 import React from "react";
+import MapCard from "./MapCard";
 
 const NewsSection = () => {
   return (
@@ -9,16 +10,19 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
       <h2 className="blue-gradient-text text-4xl font-bold mb-8 text-center">
         Tournament News
       </h2>
-
-      {/* Spacing paragraphs */}
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      {/* Registration News */}
       <div className="text-center">
         <p className="cool-gradient-text text-xl font-bold">
-          21.11.2023: Registration Opens
+          23.11.2023: Registration Opens
         </p>
         <p className="text-lg mt-4 mb-6">
           Registration for the tournament begins. Get ready to compete!
@@ -34,26 +38,50 @@ const NewsSection = () => {
       </div>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
-
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      {/* New Challenge Announcement */}
+      <div className="text-center mt-12">
+        <p className="cool-gradient-text text-xl font-bold">
+          22.11.2023: New Challenge for Registered Players
+        </p>
+        <p className="text-lg mt-4 mb-6">
+          A new challenge awaits! Players already registered and anyone wanting
+          to train on a hard map can try Castle defence map. Check it out!
+        </p>
+        <MapCard
+          imgUrl="images/TheCastle.jpg"
+          mapName="Castle Challenge"
+          rules="A challenging map for skilled players. No specific rules, just survival."
+          steamUrl="https://steamcommunity.com/sharedfiles/filedetails/?id=3090952671"
+        />
+      </div>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      {/* Existing Challenge News */}
       <div className="space-y-12">
         <div className="text-center">
           <p className="cool-gradient-text text-xl font-bold">
-            18.11.2023: Website Launch
+            20.11.2023 The Website has been launched!
           </p>
-          <p className="text-lg mt-4">
+          <p className="text-lg mt-4 mb-6">
             The official website for the Crusader 2 Winter Championship has been
-            launched. Website made by Letonetma, The Creator of Mapset: Hawt ,
-            Helpers in tournament: Albercikk, If you want to stream games or
-            help in any other ways, contact us on steam
+            launched. Website made by Letonetma, The Creator of Maps and Rules:
+            Hawt Helpers/Streamers in tournament: Albercikk, (?Stalin), Vladimir
+            If you want to stream games or help in any other ways, contact us on
+            steam
           </p>
         </div>
-
-        {/* Additional news items with similar structure can be added here */}
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
       </div>
 
-      {/* Additional spacing at the bottom if needed */}
-      <p className="py-6">&nbsp;</p>
-      <p className="py-6">&nbsp;</p>
+      {/* Other News */}
+      {/* ... */}
     </section>
   );
 };

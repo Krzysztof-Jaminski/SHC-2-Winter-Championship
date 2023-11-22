@@ -78,6 +78,10 @@ const RulesSection = () => {
         Banned Bugs and Limitations:
       </h3>
       <ul className="text-lg list-disc list-inside mb-4">
+        <li>
+          If there is no information about army/buildings limits they are 333
+          133
+        </li>
         <li>No Tower Bug.</li>
         <li>No Long Shooters (long fire bombers).</li>
         <li>
