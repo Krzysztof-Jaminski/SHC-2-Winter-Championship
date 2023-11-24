@@ -79,7 +79,7 @@ const MapsSection = () => {
       imgUrl: "./images/maps/IgiBalance.jpg",
       mapName: "Igi Balance (No Barricades)",
       steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3013858348",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3091132657 ",
       rules:
         "1k gold, medium goods, 15 peace, all on, no barricades, 100 build limit",
     },
@@ -118,7 +118,7 @@ const MapsSection = () => {
       imgUrl: "./images/maps/MoonMap.jpg",
       mapName: "MoonMap",
       steamUrl:
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3084246818",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3089169131",
       rules:
         "2.5k gold, high goods, 5 peace, all on, no grand towers, catapults vs troops allowed, no trebuchet bug",
     },

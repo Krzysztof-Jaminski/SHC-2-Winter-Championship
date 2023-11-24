@@ -10,8 +10,8 @@ const TournamentInfoSection = () => {
             Winter 2023 Crusader 2 Championship
           </h2>
           <p className="text-base lg:text-lg">
-            The Crusader 2 Winter 2023 Championship is here! Curated by Hawk,
-            the winner of the last major tournament, this event promises an
+            The Crusader 2 Winter 2023 Championship is here! Curated by hawt the
+            winner of the last major tournament, this event promises an
             enthralling experience with meticulously crafted maps and a robust
             set of rules.
           </p>
@@ -25,7 +25,7 @@ const TournamentInfoSection = () => {
             This championship introduces a series of new maps created
             specifically for the tournament, enhancing the challenge and
             excitement. The website was designed and developed by Letonetma,
-            with Hawk and Letonetma serving as the principal architects of the
+            with hawt and Letonetma serving as the principal architects of the
             tournament.
           </p>
           <p className="text-base lg:text-lg mt-2">

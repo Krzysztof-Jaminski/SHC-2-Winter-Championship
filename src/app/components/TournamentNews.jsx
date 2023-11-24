@@ -22,7 +22,7 @@ const NewsSection = () => {
       {/* Registration News */}
       <div className="text-center">
         <p className="cool-gradient-text text-xl font-bold">
-          23.11.2023: Registration Opens
+          24.11.2023: Registration Opens
         </p>
         <p className="text-lg mt-4 mb-6">
           Registration for the tournament begins. Get ready to compete!
@@ -43,7 +43,7 @@ const NewsSection = () => {
       {/* New Challenge Announcement */}
       <div className="text-center mt-12">
         <p className="cool-gradient-text text-xl font-bold">
-          22.11.2023: New Challenge for Registered Players
+          23.11.2023: New Challenge for Registered Players
         </p>
         <p className="text-lg mt-4 mb-6">
           A new challenge awaits! Players already registered and anyone wanting
