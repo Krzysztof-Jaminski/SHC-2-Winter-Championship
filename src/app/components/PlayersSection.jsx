@@ -7,15 +7,16 @@ const PlayersSection = () => {
     "Letonetma",
     "Spartacus",
     "Jedi",
-    "Mr.Monk",
     "Albercikk",
     "Hakerxus",
     "Ahmed",
     "Chezzi",
-    "Thunder",
+    "AB",
     "Stalin",
-    "Illyrian",
+    "--ILLYRIAN--",
     "Asluk",
+    "CasusObliquus",
+    "Vsratii Baron",
   ];
 
   return (
