@@ -6,8 +6,8 @@ const PlayersSection = () => {
     "Hawt",
     "Letonetma",
     "Spartacus",
-    "Jedi",
     "Albercikk",
+    "CasusObliquus",
     "Hakerxus",
     "Ahmed",
     "Chezzi",
@@ -15,7 +15,6 @@ const PlayersSection = () => {
     "Stalin",
     "--ILLYRIAN--",
     "Asluk",
-    "CasusObliquus",
     "Vsratii Baron",
     "Xeon",
   ];
