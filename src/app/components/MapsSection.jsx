@@ -112,7 +112,7 @@ const MapsSection = () => {
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3084023988",
       rules:
-        "1.5k gold, medium resources, 5 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
+        "1.5k gold, medium resources, 0 armory , medium food, 0 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
     },
     {
       imgUrl: "./images/maps/MoonMap.jpg",
@@ -128,7 +128,7 @@ const MapsSection = () => {
       steamUrl:
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3090162375",
       rules:
-        "500 gold, high resources, 5 peace , army limit 333, all off, no buy no sell",
+        "500 gold, medium resources, 5 peace, 0 armory, medium food, army limit 333, all off, no buy no sell",
     },
     {
       imgUrl: "./images/maps/Lowland.jpg",
