@@ -19,6 +19,7 @@ const PlayersSection = () => {
     "Xeon",
     "FAORS",
     "Professor",
+    "Dodorus",
   ];
 
   return (
