@@ -23,7 +23,7 @@ const PlayersSection = () => {
     "Superfly",
     "Lawrence",
     "Yoda",
-    "nil",
+    "Nil",
   ];
 
   return (
