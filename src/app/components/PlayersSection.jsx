@@ -14,12 +14,16 @@ const PlayersSection = () => {
     "AB",
     "Stalin",
     "--ILLYRIAN--",
-    "Asluk",
+    "Asluk?",
     "Vsratii Baron",
     "Xeon",
     "FAORS",
     "Professor",
     "Dodorus",
+    "Superfly",
+    "Lawrence",
+    "Yoda",
+    "nil",
   ];
 
   return (
