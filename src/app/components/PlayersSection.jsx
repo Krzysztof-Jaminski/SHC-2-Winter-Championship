@@ -14,7 +14,7 @@ const PlayersSection = () => {
     "AB",
     "Stalin",
     "--ILLYRIAN--",
-    "Asluk?",
+    "Asluk",
     "Vsratii Baron",
     "Xeon",
     "FAORS",
