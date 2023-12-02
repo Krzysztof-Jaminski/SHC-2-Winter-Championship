@@ -25,6 +25,7 @@ const PlayersSection = () => {
     "Yoda",
     "Nil",
     "RockLee",
+    "Apithos",
   ];
 
   return (
