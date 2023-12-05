@@ -28,6 +28,7 @@ const PlayersSection = () => {
     "RockLee",
     "Apithos",
     "Rudra",
+    "Itachi Ucheha",
   ];
 
   return (
