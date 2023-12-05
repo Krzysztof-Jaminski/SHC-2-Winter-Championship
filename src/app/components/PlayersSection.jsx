@@ -9,6 +9,7 @@ const PlayersSection = () => {
     "Albercikk",
     "CasusObliquus",
     "Hakerxus",
+    "Jedi",
     "Ahmed",
     "Chezzi",
     "AB",
