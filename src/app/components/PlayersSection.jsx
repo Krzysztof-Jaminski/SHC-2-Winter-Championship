@@ -29,6 +29,9 @@ const PlayersSection = () => {
     "Apithos",
     "Rudra",
     "Itachi Ucheha",
+    "Falcon",
+    "惬意的紫色奶茶",
+    // Freespace
   ];
 
   return (
