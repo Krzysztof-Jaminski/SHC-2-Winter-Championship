@@ -49,6 +49,15 @@ const RulesSection = () => {
           (Map rules have higher priority than General Rules)
         </li>
         <li>
+          Streamer/Watcher IS ALWAYS HOST, the players are NOT ALLOWED to HOST
+          their games, due to advantage of the host
+        </li>
+        <li>
+          To fullfill the limits of army and buildings watcher/streamer can not
+          kill his lord + has to add additonal AI players as watchers to
+          unplayable positions that are made on each map
+        </li>
+        <li>
           The nobuynosell rule indicates that buying and selling are not
           allowed.
         </li>
