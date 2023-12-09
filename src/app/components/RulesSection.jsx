@@ -83,6 +83,11 @@ const RulesSection = () => {
           133
         </li>
         <li>No Tower Bug.</li>
+        <li>No Asasins in peace time allowed</li>
+        <li>
+          No blocking neutral resources, nor taking more then your half in peace
+          time allowed, later on it is allowed
+        </li>
         <li>No Long Shooters (long fire bombers).</li>
         <li>
           Limiting the amount of barricades is recommended but not enforced.
