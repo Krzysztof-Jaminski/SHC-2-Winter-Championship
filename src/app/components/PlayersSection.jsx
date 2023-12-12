@@ -31,6 +31,11 @@ const PlayersSection = () => {
     "Itachi Ucheha",
     "Falcon",
     "惬意的紫色奶茶",
+    "Godofstrategy",
+    "Brivavieta",
+    "Vapaatila",
+    "Szabadterulet",
+    "Bosalan",
     // Freespace
   ];
 
