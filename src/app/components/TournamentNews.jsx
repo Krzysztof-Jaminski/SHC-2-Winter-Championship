@@ -1,5 +1,6 @@
 import React from "react";
 import MapCard from "./MapCard";
+import CM from "./CM";
 
 const NewsSection = () => {
   return (
@@ -12,9 +13,56 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
+      {/* Tournament Starts */}
       <h2 className="blue-gradient-text text-4xl font-bold mb-8 text-center">
         Tournament News
       </h2>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+      <p className="py-6">&nbsp;</p>
+
+      <div className="text-center mt-12">
+        <p className="cool-gradient-text text-xl font-bold">
+          12.12.2023: Championship Games Start
+        </p>
+        <p className="mt-4">
+          <strong>Participants in Each Group:</strong>
+          <br />
+          <strong>Group A:</strong> Hawt, Bosalan, Apithos, Godofstrategy,
+          Illyrian, CasusObliquus, Spartacus, FAORS
+          <br />
+          <strong>Group B:</strong> Hakerxus, Brivavieta, Stalin, Vsratii Baron,
+          Jedi, Rudra, Professor, 惬意的紫色奶茶
+          <br />
+          <strong>Group C:</strong> Letonetma, Vapaatila, AB, Superfly, RockLee,
+          Yoda, Nil, Asluk
+          <br />
+          <strong>Group D:</strong> Albercikk, Szabadterulet, Chezzi, Dodorus,
+          Lawrence, Xeon, Itachi Ucheha, Falcon
+        </p>
+        <p className="mt-4">
+          <strong>Game Format:</strong> Best-of-3 in group stages. Players
+          select maps from our website for the first two games, each player
+          select 1 map. Ties are decided by a random map generator.
+        </p>
+        <p className="mt-4">
+          <strong>Finalist bracket </strong>( also the finals in group stage )
+          games will feature all random maps, adding an element of surprise.
+        </p>
+        <p className="mt-4">
+          <strong>Streaming Team:</strong> Albercikk, Vladimir, SD7804, Vsratii
+          Baron, Murmelus. We may have additional streamers joining, so stay
+          tuned! Team of recorders and helpers: Godofstrategy, Letonetma If you
+          want to play your game, contact them and ask when can it be
+          streamed/recorded
+        </p>
+        <p className="py-6">&nbsp;</p>
+        <strong>Check out Leaderboards!</strong>
+        <p>If you still want to join, 4 free places left!</p>
+        <CM></CM>
+      </div>
+
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
@@ -60,7 +108,7 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
-      {/* Existing Challenge News */}
+      {/* Web Starts*/}
       <div className="space-y-12">
         <div className="text-center">
           <p className="cool-gradient-text text-xl font-bold">
