@@ -24,12 +24,12 @@ const CM = () => {
     const savedMap = savedMapData ? JSON.parse(savedMapData) : null;
     const currentTime = new Date().getTime();
 
-    if (savedMap && currentTime - savedMap.timestamp < 480000) {
-      // 480000 ms = 8 minutes
+    if (savedMap && currentTime - savedMap.timestamp < 600000) {
+      // 600000 ms = 10 minutes
       setSelectedMap(savedMap.map);
       setRecentMaps(savedMap.recentMaps || []);
       setTimeLeft(
-        Math.round((480000 - currentTime + savedMap.timestamp) / 1000)
+        Math.round((600000 - currentTime + savedMap.timestamp) / 1000)
       ); // Convert to seconds
       setPlayerOrder(savedMap.playerOrder);
       setMapPosition(savedMap.mapPosition);
@@ -37,7 +37,6 @@ const CM = () => {
       selectRandomMap();
     }
   };
-
   const selectRandomMap = () => {
     let randomMap;
     do {
