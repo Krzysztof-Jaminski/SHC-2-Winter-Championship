@@ -7,15 +7,15 @@ const dataDoubleA = {
       participants: [
         {
           id: "Hakerxus",
-          resultText: "Win",
+          resultText: "ToPlay",
           isWinner: true,
           name: "Hakerxus",
         },
         {
-          id: "Brivavieta",
-          resultText: "Lose",
-          isWinner: false,
-          name: "Brivavieta",
+          id: "Alexander Nevsky",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Alexander Nevsky",
         },
       ],
     },
