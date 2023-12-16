@@ -69,10 +69,10 @@ const dataDoubleA = {
           name: "Professor",
         },
         {
-          id: "惬意的紫色奶茶",
+          id: "Nil",
           resultText: "ToPlay",
           isWinner: true,
-          name: "惬意的紫色奶茶",
+          name: "Nil",
         },
       ],
     },
@@ -80,22 +80,7 @@ const dataDoubleA = {
       id: 5,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [
-        {
-          id: "Hakerxus",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Hakerxus",
-        },
-        ,
-        {
-          id: "Stalin",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Stalin",
-        },
-        ,
-      ],
+      participants: [{ id: "empty10" }, { id: "empty9" }],
     },
     {
       id: 6,
