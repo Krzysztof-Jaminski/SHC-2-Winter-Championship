@@ -86,7 +86,15 @@ const dataDoubleA = {
       id: 6,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty11" }, { id: "empty12" }],
+      participants: [
+        { id: "empty11" },
+        {
+          id: "Asluk",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Asluk",
+        },
+      ],
     },
     {
       id: 7,
