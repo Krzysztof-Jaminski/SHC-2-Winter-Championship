@@ -35,8 +35,8 @@ const PlayersSection = () => {
     "Brivavieta",
     "Vapaatila",
     "Szabadterulet",
-    "Bosalan",
     "Alexander Nevsky",
+    "Thunder",
     // Freespace
   ];
 
