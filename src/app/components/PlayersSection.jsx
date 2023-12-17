@@ -32,7 +32,6 @@ const PlayersSection = () => {
     "Falcon",
     "惬意的紫色奶茶",
     "Godofstrategy",
-    "Brivavieta",
     "Vapaatila",
     "Szabadterulet",
     "Alexander Nevsky",
