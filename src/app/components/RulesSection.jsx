@@ -91,8 +91,9 @@ const RulesSection = () => {
           If there is no information about army/buildings limits they are 333
           133
         </li>
+        <li>No Army protection boosting without special units around</li>
         <li>No Tower Bug.</li>
-        <li>No Asasins in peace time allowed</li>
+        <li>No Asasins moves into enemy space in peace time allowed</li>
         <li>
           No blocking neutral resources, nor taking more then your half in peace
           time allowed, later on it is allowed

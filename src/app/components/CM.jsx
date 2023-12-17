@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import MapCard from "./MapCard";
-import maps from "./maps"; // Ensure this is the correct path to your maps array
+import maps from "../../../public/data/maps"; // Ensure this is the correct path to your maps array
 
 const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);

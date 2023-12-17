@@ -1,5 +1,5 @@
 import MapCard from "./MapCard";
-import maps from "./maps";
+import maps from "../../../public/data/maps";
 const MapsSection = () => {
   const allMapsDownloadUrl =
     "https://steamcommunity.com/workshop/filedetails/?id=3013793496";
