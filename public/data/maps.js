@@ -100,7 +100,7 @@ const maps = [
     imgUrl: "./images/maps/RushToTheVillages.jpg",
     mapName: "Rush to the Villages",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3016653093",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3113819339",
     rules: "7.5k gold, very high goods, all on, 5 peace, no barricades",
   },
   {

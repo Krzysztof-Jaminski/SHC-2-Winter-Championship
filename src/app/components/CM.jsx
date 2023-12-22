@@ -5,91 +5,70 @@ import maps from "../../../public/data/maps"; // Ensure this is the correct path
 
 const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);
-  const [recentMaps, setRecentMaps] = useState([]);
   const [timeLeft, setTimeLeft] = useState(0);
-  const [playerOrder, setPlayerOrder] = useState("Upper player first"); // Default value
-  const [mapPosition, setMapPosition] = useState("Left/Upper"); // Default value
 
   useEffect(() => {
-    checkAndUpdateMap();
-    const interval = setInterval(() => {
-      checkAndUpdateMap();
-    }, 1000); // Update every second
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const checkAndUpdateMap = () => {
-    const savedMapData = localStorage.getItem("selectedMap");
-    const savedMap = savedMapData ? JSON.parse(savedMapData) : null;
-    const currentTime = new Date().getTime();
-
-    if (savedMap && currentTime - savedMap.timestamp < 600000) {
-      // 600000 ms = 10 minutes
-      setSelectedMap(savedMap.map);
-      setRecentMaps(savedMap.recentMaps || []);
-      setTimeLeft(
-        Math.round((600000 - currentTime + savedMap.timestamp) / 1000)
-      ); // Convert to seconds
-      setPlayerOrder(savedMap.playerOrder);
-      setMapPosition(savedMap.mapPosition);
-    } else {
-      selectRandomMap();
-    }
-  };
-  const selectRandomMap = () => {
-    let randomMap;
-    do {
-      randomMap = maps[Math.floor(Math.random() * maps.length)];
-    } while (
-      recentMaps.includes(randomMap.mapName) &&
-      maps.length > recentMaps.length
-    );
-
-    const updatedRecentMaps = [randomMap.mapName, ...recentMaps].slice(0, 8);
-    const newPlayerOrder =
-      Math.random() < 0.5 ? "Upper player first" : "Down player first";
-    const newMapPosition = Math.random() < 0.5 ? "Left/Upper" : "Right/Down";
-    const mapData = {
-      map: randomMap,
-      timestamp: new Date().getTime(),
-      recentMaps: updatedRecentMaps,
-      playerOrder: newPlayerOrder,
-      mapPosition: newMapPosition,
+    const getMapIndex = () => {
+      const londonTime = new Date(
+        new Date().toLocaleString("en-US", { timeZone: "Europe/London" })
+      );
+      const dayStart = new Date(londonTime);
+      dayStart.setHours(0, 0, 0, 0); // Set to start of the day
+      const minutesSinceDayStart = (londonTime - dayStart) / 60000; // Milliseconds to minutes
+      return Math.floor(minutesSinceDayStart / 10) % maps.length;
     };
 
-    localStorage.setItem("selectedMap", JSON.stringify(mapData));
-    setSelectedMap(randomMap);
-    setRecentMaps(updatedRecentMaps);
-    setTimeLeft(480); // 8 minutes in seconds
-    setPlayerOrder(newPlayerOrder);
-    setMapPosition(newMapPosition);
-  };
+    const setTimeLeftUntilNextUpdate = () => {
+      const now = new Date();
+      const nextUpdate = new Date(now);
+      nextUpdate.setMinutes(
+        nextUpdate.getMinutes() + 10 - (nextUpdate.getMinutes() % 10),
+        0,
+        0
+      );
+      return Math.ceil((nextUpdate - now) / 1000);
+    };
 
-  const handleMapClick = () => {
-    if (timeLeft > 0) return; // Disable map change if timer is not expired
-    selectRandomMap();
-  };
+    const updateMap = () => {
+      setSelectedMap(maps[getMapIndex()]);
+      setTimeLeft(setTimeLeftUntilNextUpdate());
+    };
+
+    const timerInterval = setInterval(() => {
+      setTimeLeft((prevTime) => {
+        let time = prevTime - 1;
+        if (time <= 0) {
+          updateMap();
+          time = setTimeLeftUntilNextUpdate();
+        }
+        return time;
+      });
+    }, 1000);
+
+    // Initial map selection and timer setup
+    updateMap();
+
+    return () => clearInterval(timerInterval);
+  }, []);
 
   return (
     <div className="text-center mt-12">
-      <h3>Random Map and Player Generator</h3>
-      <div onClick={handleMapClick} className="cursor-pointer">
+      <h3>Map Position Generator</h3>
+      <div>
         {selectedMap ? (
           <>
-            <MapCard
-              imgUrl={selectedMap.imgUrl}
-              mapName={selectedMap.mapName}
-              rules={selectedMap.rules}
-              steamUrl={selectedMap.steamUrl}
-            />
-            <p>
-              {timeLeft > 0
-                ? `Time until next map: ${timeLeft} seconds`
-                : "Click to get a new map!"}
-            </p>
-            <p>Player Order: {playerOrder}</p>
-            <p>Map Position: {mapPosition}</p>
+            <a
+              href={selectedMap.steamUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MapCard
+                imgUrl={selectedMap.imgUrl}
+                mapName={selectedMap.mapName}
+                rules={selectedMap.rules}
+              />
+            </a>
+            <p>Time until next map: {timeLeft} seconds</p>
           </>
         ) : (
           <p>Loading map...</p>

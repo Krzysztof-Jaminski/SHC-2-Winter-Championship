@@ -23,6 +23,50 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
 
       <div className="text-center mt-12">
+        <p className="cool-gradient-text text-md font-bold">
+          22.12.2023: Completion of Round One and Upcoming Deadlines
+        </p>
+        <p className="mt-4">
+          Round One will be finished 25.12.2023. Rounds 2 and 3 are to be
+          completed by December 31, 2023. Unplayed matches will be decided based
+          on Steam activity in Crusader 2.
+        </p>
+        <p className="py-6">&nbsp;</p>
+        <strong>Check the leaderboard</strong> for updates and standings.
+        <p>Additional spots available for new participants.</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+      </div>
+
+      <div className="text-center mt-12">
+        <p className="cool-gradient-text text-md font-bold">
+          20.12.2023: Recent Match Results
+        </p>
+        <p className="mt-4">
+          <strong>Stalin vs Vastii Baron:</strong> 2-0 (13.12.2023) -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Hakeruxs vs Rudra:</strong> 2-0 (20.12.2023) -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 (18.12.2023) -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Chezzi vs Dorodorus:</strong> 2-0 (18.12.2023) -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
+      </div>
+
+      <div className="text-center mt-12">
         <p className="cool-gradient-text text-xl font-bold">
           12.12.2023: Championship Games Start
         </p>
@@ -59,7 +103,7 @@ const NewsSection = () => {
         </p>
         <p className="py-6">&nbsp;</p>
         <strong>Check out Leaderboards!</strong>
-        <p>If you still want to join, 4 free places left!</p>
+        <p>If you still want to join, 2 free places left!</p>
         <CM></CM>
       </div>
 
