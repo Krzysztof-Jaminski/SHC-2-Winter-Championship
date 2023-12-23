@@ -8,21 +8,28 @@ const CM = () => {
   const [timeLeft, setTimeLeft] = useState(0);
 
   useEffect(() => {
+    const pseudoRandom = (seed, max) => {
+      let value = (seed * 9301 + 49297) % 233280; // Simple PRNG
+      return Math.floor((value / 233280) * max);
+    };
+
     const getMapIndex = () => {
       const londonTime = new Date(
         new Date().toLocaleString("en-US", { timeZone: "Europe/London" })
       );
-      const dayStart = new Date(londonTime);
-      dayStart.setHours(0, 0, 0, 0); // Set to start of the day
-      const minutesSinceDayStart = (londonTime - dayStart) / 60000; // Milliseconds to minutes
-      return Math.floor(minutesSinceDayStart / 10) % maps.length;
+      // Seed changes every 15 minutes
+      const seed =
+        londonTime.getDate() * 1440 +
+        londonTime.getHours() * 60 +
+        Math.floor(londonTime.getMinutes() / 15);
+      return pseudoRandom(seed, maps.length);
     };
 
     const setTimeLeftUntilNextUpdate = () => {
       const now = new Date();
       const nextUpdate = new Date(now);
       nextUpdate.setMinutes(
-        nextUpdate.getMinutes() + 10 - (nextUpdate.getMinutes() % 10),
+        nextUpdate.getMinutes() + 15 - (nextUpdate.getMinutes() % 15),
         0,
         0
       );
