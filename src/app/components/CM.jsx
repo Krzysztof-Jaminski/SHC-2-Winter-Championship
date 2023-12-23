@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import MapCard from "./MapCard";
-import maps from "../../../public/data/maps"; // Ensure this is the correct path to your maps array
+import maps from "../../../public/data/maps";
 
 const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);
@@ -9,7 +9,7 @@ const CM = () => {
 
   useEffect(() => {
     const pseudoRandom = (seed, max) => {
-      let value = (seed * 9301 + 49297) % 233280; // Simple PRNG
+      let value = (seed * 9301 + 49297) % 233280;
       return Math.floor((value / 233280) * max);
     };
 
@@ -17,11 +17,8 @@ const CM = () => {
       const londonTime = new Date(
         new Date().toLocaleString("en-US", { timeZone: "Europe/London" })
       );
-      // Seed changes every 15 minutes
       const seed =
-        londonTime.getDate() * 1440 +
-        londonTime.getHours() * 60 +
-        Math.floor(londonTime.getMinutes() / 15);
+        Math.floor(londonTime.getTime() / (60000 * 15)) % maps.length;
       return pseudoRandom(seed, maps.length);
     };
 
@@ -52,7 +49,6 @@ const CM = () => {
       });
     }, 1000);
 
-    // Initial map selection and timer setup
     updateMap();
 
     return () => clearInterval(timerInterval);
