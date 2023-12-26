@@ -24,40 +24,60 @@ const NewsSection = () => {
 
       <div className="text-center mt-12">
         <p className="cool-gradient-text text-md font-bold">
-          22.12.2023: Completion of Round One and Upcoming Deadlines
+          Comprehensive Match Results
         </p>
-        <p className="mt-4">
-          Round One will be finished 25.12.2023. Rounds 2 and 3 are to be
-          completed by December 31, 2023. Unplayed matches will be decided based
-          on Steam activity in Crusader 2.
-        </p>
-        <p className="py-6">&nbsp;</p>
-        <strong>Check the leaderboard</strong> for updates and standings.
-        <p>Additional spots available for new participants.</p>
-        <p className="py-6">&nbsp;</p>
-        <p className="py-6">&nbsp;</p>
-        <p className="py-6">&nbsp;</p>
-        <p className="py-6">&nbsp;</p>
-      </div>
 
-      <div className="text-center mt-12">
-        <p className="cool-gradient-text text-md font-bold">
-          20.12.2023: Recent Match Results
+        {/* Matches from previous discussions */}
+        <p className="mt-4">
+          <strong>Hakerxus vs Rudra:</strong> 2-0 - <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Stalin vs Vastii Baron:</strong> 2-0 (13.12.2023) -{" "}
+          <strong>Stalin vs Vsratii Baron:</strong> 2-0 -{" "}
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Hakeruxs vs Rudra:</strong> 2-0 (20.12.2023) -{" "}
+          <strong>Jedi vs Alexander Nevsky:</strong> 2-1 -{" "}
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 (18.12.2023) -{" "}
+          <strong>Nil vs Professor:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Hawt vs FAORS:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Thunder vs Spartacus:</strong> 2-0 -{" "}
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Chezzi vs Dorodorus:</strong> 2-0 (18.12.2023) -{" "}
+          <strong>CasusObliquus vs Apithos:</strong> 2-0 -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Illyrian vs Godofstrategy:</strong> 2-0 -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Albercikk vs Falcon:</strong> 2-0 -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Chezzi vs Dodorus:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+
+        {/* Matches from the provided group */}
+        <p className="mt-4">
+          <strong>Letonetma vs RockLee:</strong> 2-0 -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>AB vs Superfly:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Ahmed vs Yoda:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 -{" "}
           <a href="">Match Replay</a>
         </p>
         <p className="py-6">&nbsp;</p>
@@ -73,18 +93,19 @@ const NewsSection = () => {
         <p className="mt-4">
           <strong>Participants in Each Group:</strong>
           <br />
-          <strong>Group A:</strong> Hawt, Bosalan, Apithos, Godofstrategy,
-          Illyrian, CasusObliquus, Spartacus, FAORS
+          <strong>Group A:</strong> Hawt, Thunder, CasusObliquus, Illyrian,
+          FAORS, Spartacus, Apithos, Godofstrategy
           <br />
-          <strong>Group B:</strong> Hakerxus, Brivavieta, Stalin, Vsratii Baron,
-          Jedi, Rudra, Professor, 惬意的紫色奶茶
+          <strong>Group B:</strong> Hakerxus, Stalin, Jedi, Nil, Rudra, Vsratii
+          Baron, Alexander Nevsky, Professor
           <br />
-          <strong>Group C:</strong> Letonetma, Vapaatila, AB, Superfly, RockLee,
-          Yoda, Nil, Asluk
+          <strong>Group C:</strong> Letonetma, AB, Ahmed, Asluk, RockLee,
+          Superfly, Yoda, 惬意的紫色奶茶
           <br />
-          <strong>Group D:</strong> Albercikk, Szabadterulet, Chezzi, Dodorus,
-          Lawrence, Xeon, Itachi Ucheha, Falcon
+          <strong>Group D:</strong> Albercikk, Chezzi, Itachi Ucheha, Lawrence,
+          Xeon, Falcon, Dodorus, (Empty Spot)
         </p>
+
         <p className="mt-4">
           <strong>Game Format:</strong> Best-of-3 in group stages. Players
           select maps from our website for the first two games, each player
@@ -103,7 +124,7 @@ const NewsSection = () => {
         </p>
         <p className="py-6">&nbsp;</p>
         <strong>Check out Leaderboards!</strong>
-        <p>If you still want to join, 2 free places left!</p>
+        <p>If you still want to join, 1 free place left!</p>
         <CM></CM>
       </div>
 

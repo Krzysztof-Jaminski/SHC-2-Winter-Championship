@@ -45,14 +45,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Jedi",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Jedi",
         },
         {
           id: "Alexander Nevsky",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Alexander Nevsky",
         },
       ],
@@ -63,16 +63,16 @@ const dataDoubleA = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Professor",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Professor",
-        },
-        {
           id: "Nil",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Nil",
+        },
+        {
+          id: "Professor",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Professor",
         },
       ],
     },
@@ -99,7 +99,20 @@ const dataDoubleA = {
       id: 6,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty11" }, { id: "empty12" }],
+      participants: [
+        {
+          id: "Jedi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Jedi",
+        },
+        {
+          id: "Nil",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Nil",
+        },
+      ],
     },
     {
       id: 7,
@@ -132,7 +145,20 @@ const dataDoubleA = {
       id: 9,
       nextMatchId: 11,
       tournamentRound: "R1",
-      participants: [{ id: "empty17" }, { id: "empty18" }],
+      participants: [
+        {
+          id: "Alexander Nevsky",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Alexander Nevsky",
+        },
+        {
+          id: "Professor",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Professor",
+        },
+      ],
     },
     {
       id: 10,

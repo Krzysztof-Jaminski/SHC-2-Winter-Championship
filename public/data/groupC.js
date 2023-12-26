@@ -7,15 +7,15 @@ const dataDoubleA = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Letonetma",
         },
         {
-          id: "Vapaatila",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Vapaatila",
+          id: "RockLee",
+          resultText: "Lose",
+          isWinner: false,
+          name: "RockLee",
         },
       ],
     },
@@ -26,14 +26,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "AB",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "AB",
         },
         {
           id: "Superfly",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Superfly",
         },
       ],
@@ -44,15 +44,15 @@ const dataDoubleA = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "RockLee",
-          resultText: "ToPlay",
+          id: "Ahmed",
+          resultText: "Win",
           isWinner: true,
-          name: "RockLee",
+          name: "Ahmed",
         },
         {
           id: "Yoda",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Yoda",
         },
       ],
@@ -63,16 +63,16 @@ const dataDoubleA = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "惬意的紫色奶茶",
-          resultText: "Lost",
-          isWinner: false,
-          name: "惬意的紫色奶茶",
-        },
-        {
           id: "Asluk",
           resultText: "Win",
           isWinner: true,
           name: "Asluk",
+        },
+        {
+          id: "惬意的紫色奶茶",
+          resultText: "Lose",
+          isWinner: false,
+          name: "惬意的紫色奶茶",
         },
       ],
     },
@@ -80,14 +80,32 @@ const dataDoubleA = {
       id: 5,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty9" }, { id: "empty10" }],
+      participants: [
+        {
+          id: "Letonetma",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Letonetma",
+        },
+        {
+          id: "AB",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "AB",
+        },
+      ],
     },
     {
       id: 6,
       nextMatchId: 7,
       tournamentRound: "R2",
       participants: [
-        { id: "empty11" },
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
         {
           id: "Asluk",
           resultText: "ToPlay",
@@ -108,14 +126,32 @@ const dataDoubleA = {
       id: 8,
       nextMatchId: 10,
       tournamentRound: "R1",
-      participants: [{ id: "empty15" }, { id: "empty16" }],
+      participants: [
+        {
+          id: "RockLee",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "RockLee",
+        },
+        {
+          id: "Superfly",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Superfly",
+        },
+      ],
     },
     {
       id: 9,
       nextMatchId: 11,
       tournamentRound: "R1",
       participants: [
-        { id: "empty17" },
+        {
+          id: "Yoda",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Yoda",
+        },
         {
           id: "惬意的紫色奶茶",
           resultText: "ToPlay",

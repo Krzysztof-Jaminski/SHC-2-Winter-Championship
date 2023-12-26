@@ -292,6 +292,9 @@ const LeaderboardsSection = () => {
           </p>
         </div>
         <p className="py-6">&nbsp;</p>
+        <h2 className="cool-gradient-text text-2xl font-bold mb-3">
+          The Best 8, The Final Bracket:
+        </h2>
         <div className="inverted-colors">
           <DoubleEliminationBracket
             matches={dataDoubleLastGameLower}

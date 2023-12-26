@@ -7,14 +7,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
         {
           id: "FAORS",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "FAORS",
         },
       ],
@@ -26,13 +26,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Spartacus",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Spartacus",
         },
         {
           id: "Thunder",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Thunder",
         },
@@ -45,14 +45,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "CasusObliquus",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "CasusObliquus",
         },
         {
           id: "Apithos",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Apithos",
         },
       ],
@@ -64,14 +64,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Illyrian",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Illyrian",
         },
         {
           id: "Godofstrategy",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Godofstrategy",
         },
       ],
@@ -80,13 +80,39 @@ const dataDoubleA = {
       id: 5,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty9" }, { id: "empty10" }],
+      participants: [
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
+        {
+          id: "Thunder",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Thunder",
+        },
+      ],
     },
     {
       id: 6,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty11" }, { id: "empty12" }],
+      participants: [
+        {
+          id: "CasusObliquus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "CasusObliquus",
+        },
+        {
+          id: "Illyrian",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Illyrian",
+        },
+      ],
     },
     {
       id: 7,
@@ -100,13 +126,39 @@ const dataDoubleA = {
       id: 8,
       nextMatchId: 10,
       tournamentRound: "R1",
-      participants: [{ id: "empty15" }, { id: "empty16" }],
+      participants: [
+        {
+          id: "FAORS",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "FAORS",
+        },
+        {
+          id: "Spartacus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Spartacus",
+        },
+      ],
     },
     {
       id: 9,
       nextMatchId: 11,
       tournamentRound: "R1",
-      participants: [{ id: "empty17" }, { id: "empty18" }],
+      participants: [
+        {
+          id: "Apithos",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Apithos",
+        },
+        {
+          id: "Godofstrategy",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Godofstrategy",
+        },
+      ],
     },
     {
       id: 10,
