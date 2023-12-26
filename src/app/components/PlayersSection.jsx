@@ -31,7 +31,6 @@ const PlayersSection = () => {
     "Itachi Ucheha",
     "Falcon",
     "惬意的紫色奶茶",
-    "Vapaatila",
     "Alexander Nevsky",
     "Godofstrategy",
     "Thunder",
