@@ -7,40 +7,40 @@ const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);
   const [timeLeft, setTimeLeft] = useState(0);
 
+  const simpleHash = (str) => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      const char = str.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return hash;
+  };
+
+  const getMapIndex = () => {
+    const now = new Date();
+    const dateString = `${now.getDate()}/${
+      now.getMonth() + 1
+    }/${now.getFullYear()} ${now.getHours()}:${now.getMinutes()}`;
+
+    const hash = simpleHash(dateString);
+    return Math.abs(hash) % maps.length; // Use absolute value to avoid negative index
+  };
+
+  const calculateTimeLeft = () => {
+    const now = new Date();
+    const minutes = now.getUTCMinutes();
+    const nextInterval = 15 - (minutes % 15);
+    const seconds = now.getUTCSeconds();
+    return nextInterval * 60 - seconds; // Time until the next 15-minute interval in seconds
+  };
+
+  const updateMapAndTimer = () => {
+    setSelectedMap(maps[getMapIndex()]);
+    setTimeLeft(calculateTimeLeft());
+  };
+
   useEffect(() => {
-    const getMapIndex = () => {
-      const now = new Date();
-      const day = now.getDate();
-      const month = now.getMonth() + 1; // getMonth() returns 0-11
-      const year = now.getFullYear();
-      const hours = now.getHours();
-      const minutes = now.getMinutes();
-
-      // Enhanced formula for index
-      const index =
-        (Math.pow(day, 3) +
-          Math.pow(month, 2) * year +
-          Math.pow(hours, 2) * minutes +
-          day * hours +
-          month * minutes +
-          year) %
-        maps.length;
-      return index;
-    };
-
-    const calculateTimeLeft = () => {
-      const now = new Date();
-      const minutes = now.getUTCMinutes();
-      const nextInterval = 15 - (minutes % 15);
-      const seconds = now.getUTCSeconds();
-      return nextInterval * 60 - seconds; // Time until the next 15-minute interval in seconds
-    };
-
-    const updateMapAndTimer = () => {
-      setSelectedMap(maps[getMapIndex()]);
-      setTimeLeft(calculateTimeLeft());
-    };
-
     updateMapAndTimer(); // Initial update
     const timerInterval = setInterval(updateMapAndTimer, 1000); // Update every second
 
