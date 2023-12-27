@@ -7,44 +7,40 @@ const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);
   const [timeLeft, setTimeLeft] = useState(0);
 
-  const simpleHash = (str) => {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-      const char = str.charCodeAt(i);
-      hash = (hash << 5) - hash + char;
-      hash = hash & hash; // Convert to 32bit integer
-    }
-    return hash;
+  const getPseudoRandomNumber = () => {
+    const now = new Date();
+    const seed =
+      now.getFullYear() * 10000000 +
+      (now.getMonth() + 1) * 100000 +
+      now.getDate() * 1000 +
+      Math.floor(now.getHours() / 1.5) * 15 +
+      Math.floor(now.getMinutes() / 15);
+    return seed % maps.length;
   };
 
-  const getMapIndex = () => {
-    const now = new Date();
-    const dateString = `${now.getDate()}/${
-      now.getMonth() + 1
-    }/${now.getFullYear()} ${now.getHours()}:${now.getMinutes()}`;
-
-    const hash = simpleHash(dateString);
-    return Math.abs(hash) % maps.length; // Use absolute value to avoid negative index
+  const updateMap = () => {
+    const randomIndex = getPseudoRandomNumber();
+    setSelectedMap(maps[randomIndex]);
   };
 
   const calculateTimeLeft = () => {
     const now = new Date();
-    const minutes = now.getUTCMinutes();
+    const minutes = now.getMinutes();
     const nextInterval = 15 - (minutes % 15);
-    const seconds = now.getUTCSeconds();
+    const seconds = now.getSeconds();
     return nextInterval * 60 - seconds; // Time until the next 15-minute interval in seconds
   };
 
-  const updateMapAndTimer = () => {
-    setSelectedMap(maps[getMapIndex()]);
-    setTimeLeft(calculateTimeLeft());
-  };
-
   useEffect(() => {
-    updateMapAndTimer(); // Initial update
-    const timerInterval = setInterval(updateMapAndTimer, 1000); // Update every second
+    updateMap(); // Initial update
+    setTimeLeft(calculateTimeLeft());
 
-    return () => clearInterval(timerInterval);
+    const intervalId = setInterval(() => {
+      updateMap();
+      setTimeLeft(calculateTimeLeft());
+    }, 1000); // Update every second for the timer
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
