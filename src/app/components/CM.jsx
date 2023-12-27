@@ -37,7 +37,7 @@ const CM = () => {
       cityOffsets.forEach((offset) => {
         // Calculate the time in this city
         const cityTime = new Date(now.getTime() + offset * 3600 * 1000);
-        const cityHours = cityTime.getUTCHours() + cityTime.getMinutes(); // Get hours in 24-hour format
+        const cityHours = cityTime.getUTCHours() + cityTime.getUTCMinutes(); // Get hours in 24-hour format
         seed = (seed * cityHours) % 233280;
       });
 
