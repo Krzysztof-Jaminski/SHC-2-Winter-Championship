@@ -27,13 +27,22 @@ const CM = () => {
 
     const getCurrentSeed = () => {
       const now = new Date();
-      const utcMinutesToday = now.getUTCHours() * 60 + now.getUTCMinutes();
-      const totalOffsetMinutes = cityOffsets.reduce(
-        (acc, offset) => acc + offset * 60,
-        0
-      );
-      // Combine the current UTC minutes and the total offset minutes
-      return (utcMinutesToday + totalOffsetMinutes) % 1440; // Modulo by the number of minutes in a day
+
+      // Convert current UTC time to hours and minutes
+      const utcHours = now.getUTCHours();
+      const utcMinutes = now.getUTCMinutes();
+
+      // Calculate the 'current time' in hours for 100 cities and multiply them together
+      let seed = 1;
+      cityOffsets.forEach((offset) => {
+        // Calculate the time in this city
+        const cityTime = new Date(now.getTime() + offset * 3600 * 1000);
+        const cityHours = cityTime.getUTCHours(); // Get hours in 24-hour format
+        seed = (seed * cityHours) % 233280;
+      });
+
+      // Combine with UTC minutes for additional variability
+      return (seed * utcMinutes) % 233280;
     };
 
     const getMapIndex = () => {
