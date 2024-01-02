@@ -26,8 +26,26 @@ const NewsSection = () => {
         <p className="cool-gradient-text text-md font-bold">
           Comprehensive Match Results
         </p>
-
+        <p>
+          <strong>
+            TIME LIMIT FOR SECOND ROUND OF GROUP STAGE : 08.01.2024 PLAY YOUR
+            GAME OR INFORM US IF YOUR OPPONENT DOES NOT RESPOND
+          </strong>
+          <p></p>
+        </p>
         {/* Matches from previous discussions */}
+        <p className="mt-4"> ROUND 2 GROUP STAGE </p>
+        <p className="mt-4">
+          <strong>Hakerxus vs Stalin:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Albercikk vs Chezii:</strong> 2-1 -{" "}
+          <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Letonetma vs AB:</strong> 2-0 - <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4"> ROUND 1 GROUP STAGE </p>
         <p className="mt-4">
           <strong>Hakerxus vs Rudra:</strong> 2-0 - <a href="">Match Replay</a>
         </p>
