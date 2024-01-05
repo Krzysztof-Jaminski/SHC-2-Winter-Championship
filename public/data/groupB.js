@@ -137,13 +137,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Rudra",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lost",
+          isWinner: false,
           name: "Rudra",
         },
         {
           id: "Vsratii Baron",
-          resultText: "ToPlay",
+          resultText: "Won",
           isWinner: true,
           name: "Vsratii Baron",
         },
@@ -179,7 +179,12 @@ const dataDoubleA = {
           isWinner: true,
           name: "Stalin",
         },
-        { id: "empty20" },
+        {
+          id: "Vsratii Baron",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Vsratii Baron",
+        },
       ],
     },
     {
