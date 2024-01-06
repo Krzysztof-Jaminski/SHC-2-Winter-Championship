@@ -64,7 +64,7 @@ const NewsSection = () => {
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Nil vs Professor:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>Elik vs Nil:</strong> 2-0 - <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
           <strong>Hawt vs FAORS:</strong> 2-0 - <a href="">Match Replay</a>
@@ -121,13 +121,13 @@ const NewsSection = () => {
           FAORS, Spartacus, Apithos, Godofstrategy
           <br />
           <strong>Group B:</strong> Hakerxus, Stalin, Jedi, Nil, Rudra, Vsratii
-          Baron, Alexander Nevsky, Professor
+          Baron, Alexander Nevsky, Elik || Professor
           <br />
           <strong>Group C:</strong> Letonetma, AB, Ahmed, Asluk, RockLee,
           Superfly, Yoda, 惬意的紫色奶茶
           <br />
           <strong>Group D:</strong> Albercikk, Chezzi, Itachi Ucheha, Lawrence,
-          Xeon, Falcon, Dodorus, (Empty Spot)
+          Xeon, Falcon, Dodorus, Protagonist
         </p>
 
         <p className="mt-4">

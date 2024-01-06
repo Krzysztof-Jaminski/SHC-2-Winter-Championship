@@ -34,7 +34,8 @@ const PlayersSection = () => {
     "Alexander Nevsky",
     "Godofstrategy",
     "Thunder",
-    "FreeSpace",
+    "Protagonist",
+    "Elik",
     // Freespace
   ];
 
