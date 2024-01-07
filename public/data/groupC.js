@@ -102,14 +102,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Ahmed",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Ahmed",
         },
         {
           id: "Asluk",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Asluk",
         },
       ],
@@ -125,8 +125,12 @@ const dataDoubleA = {
           isWinner: true,
           name: "Letonetma",
         },
-        ,
-        { id: "empty14" },
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
       ],
     },
   ],
@@ -138,14 +142,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "RockLee",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "RockLee",
         },
         {
           id: "Superfly",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Superfly",
         },
       ],
@@ -157,13 +161,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Yoda",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Yoda",
         },
         {
           id: "惬意的紫色奶茶",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "惬意的紫色奶茶",
         },
@@ -180,15 +184,32 @@ const dataDoubleA = {
           isWinner: true,
           name: "AB",
         },
-        ,
-        { id: "empty20" },
+        {
+          id: "RockLee",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "RockLee",
+        },
       ],
     },
     {
       id: 11,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty21" }, { id: "empty22" }],
+      participants: [
+        {
+          id: "Asluk",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Asluk",
+        },
+        {
+          id: "惬意的紫色奶茶",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "惬意的紫色奶茶",
+        },
+      ],
     },
     {
       id: 12,

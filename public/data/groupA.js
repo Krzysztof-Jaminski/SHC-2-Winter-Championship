@@ -102,14 +102,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "CasusObliquus",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "CasusObliquus",
         },
         {
           id: "Illyrian",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Illyrian",
         },
       ],
@@ -118,7 +118,15 @@ const dataDoubleA = {
       id: 7,
       nextMatchId: 14,
       tournamentRound: "R3",
-      participants: [{ id: "empty13" }, { id: "empty14" }],
+      participants: [
+        { id: "empty13" },
+        {
+          id: "CasusObliquus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "CasusObliquus",
+        },
+      ],
     },
   ],
   lower: [
@@ -148,14 +156,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Apithos",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Apithos",
         },
         {
           id: "Godofstrategy",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Godofstrategy",
         },
       ],
@@ -170,7 +178,20 @@ const dataDoubleA = {
       id: 11,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty21" }, { id: "empty22" }],
+      participants: [
+        {
+          id: "Illyrian",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Illyrian",
+        },
+        {
+          id: "Apithos",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Apithos",
+        },
+      ],
     },
     {
       id: 12,

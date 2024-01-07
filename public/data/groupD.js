@@ -138,13 +138,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Falcon",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Falcon",
         },
         {
           id: "Dodorus",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Dodorus",
         },
@@ -157,14 +157,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Lawrence",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Lawrence",
         },
         {
           id: "Itachi Ucheha",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Itachi Ucheha",
         },
       ],
@@ -176,25 +176,45 @@ const dataDoubleA = {
       participants: [
         {
           id: "Chezzi",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Chezzi",
         },
-        ,
-        { id: "empty20" },
+        {
+          id: "Dodorus",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Dodorus",
+        },
       ],
     },
     {
       id: 11,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty21" }, { id: "empty22" }],
+      participants: [
+        { id: "empty24" },
+        {
+          id: "Lawrence",
+          resultText: "Win",
+          isWinner: true,
+          name: "Lawrence",
+        },
+      ],
     },
     {
       id: 12,
       nextMatchId: 13,
       tournamentRound: "R3",
-      participants: [{ id: "empty23" }, { id: "empty24" }],
+      participants: [
+        {
+          id: "Chezzi",
+          resultText: "Win",
+          isWinner: true,
+          name: "Chezzi",
+        },
+        { id: "empty24" },
+      ],
     },
     {
       id: 13,
