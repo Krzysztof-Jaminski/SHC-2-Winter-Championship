@@ -28,8 +28,8 @@ const NewsSection = () => {
         </p>
         <p>
           <strong>
-            TIME LIMIT FOR SECOND ROUND OF GROUP STAGE : 08.01.2024 PLAY YOUR
-            GAME OR INFORM US IF YOUR OPPONENT DOES NOT RESPOND
+            TIME LIMIT FOR WHOLE GROUP STAGE : 22.01.2024 PLAY YOUR GAME OR
+            INFORM US IF YOUR OPPONENT DOES NOT RESPOND
           </strong>
         </p>
         {/* Matches from previous discussions */}
