@@ -179,10 +179,10 @@ const dataDoubleA = {
       tournamentRound: "R2",
       participants: [
         {
-          id: "AB",
+          id: "Asluk",
           resultText: "ToPlay",
           isWinner: true,
-          name: "AB",
+          name: "Asluk",
         },
         {
           id: "RockLee",
@@ -198,10 +198,10 @@ const dataDoubleA = {
       tournamentRound: "R2",
       participants: [
         {
-          id: "Asluk",
+          id: "AB",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Asluk",
+          name: "AB",
         },
         {
           id: "惬意的紫色奶茶",
