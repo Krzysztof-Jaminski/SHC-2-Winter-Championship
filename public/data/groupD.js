@@ -180,10 +180,10 @@ const dataDoubleA = {
       tournamentRound: "R2",
       participants: [
         {
-          id: "Chezzi",
+          id: "Protagonist",
           resultText: "Win",
           isWinner: true,
-          name: "Chezzi",
+          name: "Protagonist",
         },
         {
           id: "Dodorus",
@@ -199,10 +199,10 @@ const dataDoubleA = {
       tournamentRound: "R2",
       participants: [
         {
-          id: "Protagonist",
+          id: "Chezzi",
           resultText: "Win",
           isWinner: true,
-          name: "Protagonist",
+          name: "Chezzi",
         },
         {
           id: "Lawrence",
@@ -218,16 +218,16 @@ const dataDoubleA = {
       tournamentRound: "R3",
       participants: [
         {
-          id: "Chezzi",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Chezzi",
-        },
-        {
           id: "Protagonist",
           resultText: "ToPlay",
           isWinner: true,
           name: "Protagonist",
+        },
+        {
+          id: "Chezzi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Chezzi",
         },
       ],
     },
