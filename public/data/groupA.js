@@ -143,7 +143,7 @@ const dataDoubleA = {
         {
           id: "FAORS",
           resultText: "Lose",
-          isWinner: true,
+          isWinner: false,
           name: "FAORS",
         },
         {
@@ -188,7 +188,7 @@ const dataDoubleA = {
           id: "Spartacus",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Spartacus/FAORS",
+          name: "Spartacus",
         },
       ],
     },
@@ -197,7 +197,12 @@ const dataDoubleA = {
       nextMatchId: 12,
       tournamentRound: "R2",
       participants: [
-        { id: "empty20" },
+        {
+          id: "Thunder",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Thunder",
+        },
         {
           id: "Apithos",
           resultText: "ToPlay",
