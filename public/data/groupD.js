@@ -121,15 +121,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Albercikk",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Albercikk",
         },
-        ,
         {
           id: "Xeon",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Xeon",
         },
       ],
@@ -236,10 +235,15 @@ const dataDoubleA = {
       nextMatchId: 14,
       tournamentRound: "R4",
       participants: [
-        { id: "empty25" },
+        {
+          id: "Xeon",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Xeon",
+        },
         {
           id: "Chezzi",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Chezzi",
         },
@@ -249,13 +253,39 @@ const dataDoubleA = {
       id: 14,
       nextMatchId: 15,
       tournamentRound: "R5",
-      participants: [{ id: "empty27" }, { id: "empty28" }],
+      participants: [
+        {
+          id: "Albercikk",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Albercikk",
+        },
+        {
+          id: "Chezzi",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Chezzi",
+        },
+      ],
     },
     {
       id: 15,
       nextMatchId: null,
-      tournamentRound: "Final",
-      participants: [{ id: "empty29" }, { id: "empty30" }],
+      tournamentRound: "D group Final",
+      participants: [
+        {
+          id: "Albercikk",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Albercikk",
+        },
+        {
+          id: "Chezzi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Chezzi",
+        },
+      ],
     },
   ],
 };

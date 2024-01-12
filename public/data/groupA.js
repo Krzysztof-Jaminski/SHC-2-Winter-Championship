@@ -83,14 +83,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
         {
           id: "Thunder",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Thunder",
         },
       ],
@@ -119,7 +119,12 @@ const dataDoubleA = {
       nextMatchId: 14,
       tournamentRound: "R3",
       participants: [
-        { id: "empty13" },
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
         {
           id: "CasusObliquus",
           resultText: "ToPlay",
