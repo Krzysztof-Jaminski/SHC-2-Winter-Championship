@@ -147,18 +147,16 @@ const NewsSection = () => {
         </p>
         <p className="mt-4">
           <strong>Finalist bracket </strong>( also the finals in group stage )
-          games will feature all random maps, adding an element of surprise.
+          est-of-5 in group stages. Players select maps from our website for the
+          first two games, each player select 1 map. Ties are decided by a
+          random map generator.
         </p>
         <p className="mt-4">
-          <strong>Streaming Team:</strong> Albercikk, Vladimir, SD7804, Vsratii
-          Baron, Murmelus. We may have additional streamers joining, so stay
-          tuned! Team of recorders and helpers: Godofstrategy, Letonetma If you
-          want to play your game, contact them and ask when can it be
-          streamed/recorded
+          <strong>Streaming Team:</strong> Hakeruxs, Vladimir, SD7804, Vsratii
+          Baron, Murmelus.
         </p>
         <p className="py-6">&nbsp;</p>
         <strong>Check out Leaderboards!</strong>
-        <p>If you still want to join, 1 free place left!</p>
         <CM></CM>
       </div>
 
