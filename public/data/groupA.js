@@ -207,7 +207,7 @@ const dataDoubleA = {
           id: "Apithos",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Apithos",
+          name: "Xeon",
         },
       ],
     },
