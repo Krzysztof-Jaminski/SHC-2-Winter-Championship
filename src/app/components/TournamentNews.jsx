@@ -36,8 +36,12 @@ const NewsSection = () => {
         <p className="mt-4"> ROUND 2 GROUP STAGE </p>
         <p className="mt-4">
           <strong>Xeon vs Chezii :</strong> 0-2
-          <strong>Xeon vs Albercikk :</strong> 0-2
-          <strong>Xeon vs Protagonist :</strong> 2-0
+        </p>
+        <p className="mt-4">
+          <strong>Xeon vs Albercikk :</strong> 0-2 <a href="">Match Replay</a>
+        </p>
+        <p className="mt-4">
+          <strong>Xeon vs Protagonist :</strong> 2-0 -{" "}
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
@@ -60,7 +64,7 @@ const NewsSection = () => {
         </p>
         <p className="mt-4"> ROUND 1 GROUP STAGE </p>
         <p className="mt-4">
-          <strong>Xeon vs Lawrence:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>Xeon vs Lawrence:</strong> 2-0
         </p>
         <p className="mt-4">
           <strong>Hakerxus vs Rudra:</strong> 2-0 - <a href="">Match Replay</a>
@@ -74,26 +78,22 @@ const NewsSection = () => {
           <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Elik vs Nil:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>Elik vs Nil:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>Hawt vs FAORS:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>Hawt vs FAORS:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>Thunder vs Spartacus:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
+          <strong>Thunder vs Spartacus:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>CasusObliquus vs Apithos:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
+          <strong>CasusObliquus vs Apithos:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>Illyrian vs Godofstrategy:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
+          <strong>Illyrian vs Godofstrategy:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>Albercikk vs Falcon:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
+          <strong>Albercikk vs Falcon:</strong> 2-0
         </p>
         <p className="mt-4">
           <strong>Chezzi vs Dodorus:</strong> 2-0 - <a href="">Match Replay</a>
@@ -101,14 +101,13 @@ const NewsSection = () => {
 
         {/* Matches from the provided group */}
         <p className="mt-4">
-          <strong>Letonetma vs RockLee:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
+          <strong>Letonetma vs RockLee:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>AB vs Superfly:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>AB vs Superfly:</strong> 2-0
         </p>
         <p className="mt-4">
-          <strong>Ahmed vs Yoda:</strong> 2-0 - <a href="">Match Replay</a>
+          <strong>Ahmed vs Yoda:</strong> 2-0
         </p>
         <p className="mt-4">
           <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 -{" "}
