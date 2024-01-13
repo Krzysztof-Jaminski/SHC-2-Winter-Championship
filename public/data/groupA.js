@@ -142,14 +142,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "FAORS",
-          resultText: "Lose",
-          isWinner: false,
+          resultText: "Win",
+          isWinner: true,
           name: "FAORS",
         },
         {
           id: "Spartacus",
-          resultText: "Win",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Spartacus",
         },
       ],
@@ -185,10 +185,10 @@ const dataDoubleA = {
           name: "Illyrian",
         },
         {
-          id: "Spartacus",
+          id: "FAORS",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Spartacus",
+          name: "FAORS",
         },
       ],
     },
