@@ -63,16 +63,16 @@ const dataDoubleLastGameLower = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Finalist 1 D",
+          id: "Albercikk",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 1 D",
+          name: "Albercikk",
         },
         {
-          id: "Finalist 1 D",
+          id: "Chezzi",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 2 D",
+          name: "Chezzi",
         },
       ],
     },
