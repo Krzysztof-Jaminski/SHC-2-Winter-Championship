@@ -199,14 +199,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Alexander Nevsky",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Alexander Nevsky",
         },
         {
           id: "Stalin",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Stalin",
         },
       ],
@@ -215,7 +215,15 @@ const dataDoubleA = {
       id: 12,
       nextMatchId: 13,
       tournamentRound: "R3",
-      participants: [{ id: "empty23" }, { id: "empty24" }],
+      participants: [
+        { id: "empty23" },
+        {
+          id: "Alexander Nevsky",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Alexander Nevsky",
+        },
+      ],
     },
     {
       id: 13,
