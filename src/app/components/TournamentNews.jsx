@@ -35,6 +35,9 @@ const NewsSection = () => {
         {/* Matches from previous discussions */}
         <p className="mt-4"> ROUND 2 GROUP STAGE </p>
         <p className="mt-4">
+          <strong>Vsratii Baron vs Elik :</strong> 2-0
+        </p>
+        <p className="mt-4">
           <strong>FAORS vs Illyrian :</strong> 2-1
         </p>
         <p className="mt-4">
