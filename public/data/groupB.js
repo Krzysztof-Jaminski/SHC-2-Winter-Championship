@@ -235,7 +235,12 @@ const dataDoubleA = {
       nextMatchId: 14,
       tournamentRound: "R4",
       participants: [
-        { id: "empty25" },
+        {
+          id: "Jedi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Jedi",
+        },
         {
           id: "Alexander Nevsky",
           resultText: "ToPlay",
