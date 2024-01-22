@@ -180,14 +180,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Asluk",
-          resultText: "ToPlay",
+          resultText: "INC",
           isWinner: true,
           name: "Asluk",
         },
         {
           id: "RockLee",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "INC",
+          isWinner: false,
           name: "RockLee",
         },
       ],
@@ -199,13 +199,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "AB",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "AB",
         },
         {
           id: "惬意的紫色奶茶",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "惬意的紫色奶茶",
         },
@@ -215,7 +215,20 @@ const dataDoubleA = {
       id: 12,
       nextMatchId: 13,
       tournamentRound: "R3",
-      participants: [{ id: "empty23" }, { id: "empty24" }],
+      participants: [
+        {
+          id: "Asluk",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Xeon",
+        },
+        {
+          id: "惬意的紫色奶茶",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "惬意的紫色奶茶",
+        },
+      ],
     },
     {
       id: 13,
