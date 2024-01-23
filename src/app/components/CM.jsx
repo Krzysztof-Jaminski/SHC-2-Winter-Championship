@@ -7,22 +7,25 @@ const CM = () => {
   const [selectedMap, setSelectedMap] = useState(null);
   const [timeLeft, setTimeLeft] = useState(0);
 
+  const moment = require("moment-timezone");
+
   const getPseudoRandomNumber = () => {
-    const now = new Date();
-    const seed = now.getDate() + now.getMonth() + now.getFullYear();
+    // Get the current time in London
+    const now = moment().tz("Europe/London");
+
+    // Use the London date and time for seed calculation
+    const seed = now.date() + now.month() + now.year();
     const numbers = Array.from({ length: maps.length }, (_, i) => i);
 
-    // Simple shuffle using the seed
+    // Shuffle the numbers array using the seed
     for (let i = numbers.length - 1; i > 0; i--) {
-      const j =
-        (seed + Math.floor(now.getHours() * 60 + now.getMinutes())) % (i + 1);
+      const j = (seed + Math.floor(now.hours() * 60 + now.minutes())) % (i + 1);
       [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
     }
 
-    // Get the current index based on time
+    // Calculate the index based on London time
     const index =
-      Math.floor((now.getHours() * 60) / 15 + now.getMinutes() / 15) %
-      maps.length;
+      Math.floor((now.hours() * 60) / 15 + now.minutes() / 15) % maps.length;
     return numbers[index];
   };
 
