@@ -48,14 +48,15 @@ const maps = [
     mapName: "Barren Lands",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3092113828",
-    rules: "7.5k gold, high goods, 10 pt, all on, no trebuchet bug",
+    rules: "7.5k gold, high goods, 10 peace, all on, no trebuchet bug",
   },
   {
-    imgUrl: "./images/maps/DesertWinds.jpg",
-    mapName: "Desert Winds",
+    imgUrl: "./images/maps/MarsWood.jpg",
+    mapName: "Mars Wood",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3013753337",
-    rules: "250 gold, no goods, 5 peace, all on",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3092077249",
+    rules:
+      "no gold, low resources, very low food, very high weapons, 0 peace, all on, no trade",
   },
   {
     imgUrl: "./images/maps/DuelInTheMiddle.jpg",
@@ -86,7 +87,8 @@ const maps = [
     mapName: "Oasis",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3092109106",
-    rules: "1.5k gold, medium goods, 15 pt, no trebuchets, no fire, no towers",
+    rules:
+      "50 gold, very low goods, no peace, no trebuchets, no fire, no towers",
   },
   {
     imgUrl: "./images/maps/Mars1vs1With2Villages.jpg",
@@ -109,7 +111,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3084023988",
     rules:
-      "0 gold, 0 resources, 0 armory , low food, 0 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
+      "0 gold, 0 resources, 0 armory , 0 food, 0 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
   },
   {
     imgUrl: "./images/maps/MoonMap.jpg",
@@ -125,7 +127,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3090162375",
     rules:
-      "500 gold, medium resources, 5 peace, 0 armory, medium food, army limit 333, all off, no buy no sell",
+      "NO RECRUTS/CONSCRIPTS 500 gold, medium resources, 5 peace, 0 armory, medium food, army limit 333, all off, no buy no sell",
   },
   {
     imgUrl: "./images/maps/Lowland.jpg",

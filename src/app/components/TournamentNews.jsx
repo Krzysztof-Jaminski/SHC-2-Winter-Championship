@@ -28,9 +28,10 @@ const NewsSection = () => {
         </p>
         <p>
           <strong>
-            OLD TIME LIMIT FOR WHOLE GROUP STAGE : 22.01.2024 PLAY YOUR GAME OR
-            INFORM US IF YOUR OPPONENT DOES NOT RESPOND NEW TIME LIMIT FOR GROUP
-            STAGE : 28.01.2024
+            CHECK OUT SMALL CHANGES IN THE MAPS AND RULES, NOW THE NEW RULES
+            APPLAY, especially for fernir,nobuynosell,oasis and mars woods PLAY
+            YOUR GAME OR INFORM US IF YOUR OPPONENT DOES NOT RESPOND NEW TIME
+            LIMIT FOR GROUPSTAGE : 28.01.2024
           </strong>
         </p>
         {/* Matches from previous discussions */}
