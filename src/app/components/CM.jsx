@@ -9,13 +9,21 @@ const CM = () => {
 
   const getPseudoRandomNumber = () => {
     const now = new Date();
-    const seed =
-      now.getFullYear() * 10000000 +
-      (now.getMonth() + 1) * 100000 +
-      now.getDate() * 1000 +
-      Math.floor(now.getHours() / 1.5) * 15 +
-      Math.floor(now.getMinutes() / 15);
-    return seed % maps.length;
+    const seed = now.getDate() + now.getMonth() + now.getFullYear();
+    const numbers = Array.from({ length: maps.length }, (_, i) => i);
+
+    // Simple shuffle using the seed
+    for (let i = numbers.length - 1; i > 0; i--) {
+      const j =
+        (seed + Math.floor(now.getHours() * 60 + now.getMinutes())) % (i + 1);
+      [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+    }
+
+    // Get the current index based on time
+    const index =
+      Math.floor((now.getHours() * 60) / 15 + now.getMinutes() / 15) %
+      maps.length;
+    return numbers[index];
   };
 
   const updateMap = () => {
