@@ -10,16 +10,19 @@ const CM = () => {
   const moment = require("moment-timezone");
 
   const getPseudoRandomNumber = () => {
-    // Get the current time in London
     const now = moment().tz("Europe/London");
 
-    // Use the London date and time for seed calculation
-    const seed = now.date() + now.month() + now.year();
+    // Modified seed calculation: does not change every minute
+    const seed =
+      now.date() +
+      now.month() +
+      now.year() +
+      Math.floor((now.hours() * 60) / 15);
     const numbers = Array.from({ length: maps.length }, (_, i) => i);
 
-    // Shuffle the numbers array using the seed
+    // Shuffle the numbers array using the new seed
     for (let i = numbers.length - 1; i > 0; i--) {
-      const j = (seed + Math.floor(now.hours() * 60 + now.minutes())) % (i + 1);
+      const j = seed % (i + 1);
       [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
     }
 
