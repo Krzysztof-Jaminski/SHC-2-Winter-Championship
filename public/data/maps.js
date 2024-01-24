@@ -111,7 +111,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3084023988",
     rules:
-      "0 gold, 0 resources, 0 armory , 0 food, 0 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
+      "100 gold, 0 resources, 0 armory , 0 food, 1 peace, army limit 333, all on, no buy no sell, catapults vs troops allowed",
   },
   {
     imgUrl: "./images/maps/MoonMap.jpg",
