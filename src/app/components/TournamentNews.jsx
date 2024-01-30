@@ -26,16 +26,20 @@ const NewsSection = () => {
         <p className="cool-gradient-text text-md font-bold">
           Comprehensive Match Results
         </p>
-        <p>
-          <strong>
-            CHECK OUT SMALL CHANGES IN THE MAPS AND RULES, NOW THE NEW RULES
-            APPLAY, especially for fernir,nobuynosell,oasis and mars woods PLAY
-            YOUR GAME OR INFORM US IF YOUR OPPONENT DOES NOT RESPOND NEW TIME
-            LIMIT FOR GROUPSTAGE : 28.01.2024
-          </strong>
-        </p>
+        <p></p>
         {/* Matches from previous discussions */}
+        <p className="mt-4"> Final Group Stage games:</p>
+        <p className="mt-4">
+          <strong>Hakeruxs vs Alexander Nevsky :</strong> 3-0{" "}
+          <a href="">Match Replay</a>
+        </p>
         <p className="mt-4"> ROUND 2,3,4 of the GROUP STAGE </p>
+        <p className="mt-4">
+          <strong>Letonetma vs Ahmed:</strong> 2-1{" "}
+        </p>
+        <p className="mt-4">
+          <strong>Xeon vs 惬意的紫色奶茶:</strong> 2-0{" "}
+        </p>
         <p className="mt-4">
           <strong>Hawt vs CasusObliquus:</strong> 2-0{" "}
         </p>
@@ -120,7 +124,6 @@ const NewsSection = () => {
         <p className="mt-4">
           <strong>Chezzi vs Dodorus:</strong> 2-0 - <a href="">Match Replay</a>
         </p>
-
         {/* Matches from the provided group */}
         <p className="mt-4">
           <strong>Letonetma vs RockLee:</strong> 2-0

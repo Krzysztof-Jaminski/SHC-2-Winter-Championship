@@ -121,14 +121,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Hakerxus",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hakerxus",
         },
         {
           id: "Jedi",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "INC",
+          isWinner: false,
           name: "Jedi",
         },
       ],
@@ -237,13 +237,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Jedi",
-          resultText: "ToPlay",
+          resultText: "INC",
           isWinner: true,
           name: "Jedi",
         },
         {
           id: "Alexander Nevsky",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Alexander Nevsky",
         },
@@ -253,13 +253,39 @@ const dataDoubleA = {
       id: 14,
       nextMatchId: 15,
       tournamentRound: "R5",
-      participants: [{ id: "empty27" }, { id: "empty28" }],
+      participants: [
+        {
+          id: "Hakerxus",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Hakerxus",
+        },
+        {
+          id: "Alexander Nevsky",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Alexander Nevsky",
+        },
+      ],
     },
     {
       id: 15,
       nextMatchId: null,
       tournamentRound: "Final",
-      participants: [{ id: "empty29" }, { id: "empty30" }],
+      participants: [
+        {
+          id: "Hakerxus",
+          resultText: "Win",
+          isWinner: true,
+          name: "Hakerxus",
+        },
+        {
+          id: "Alexander Nevsky",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Alexander Nevsky",
+        },
+      ],
     },
   ],
 };

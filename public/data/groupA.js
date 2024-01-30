@@ -243,13 +243,29 @@ const dataDoubleA = {
       id: 14,
       nextMatchId: 15,
       tournamentRound: "R5",
-      participants: [{ id: "empty27" }, { id: "empty28" }],
+      participants: [
+        {
+          id: "Hawt",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Hawt",
+        },
+        { id: "empty28" },
+      ],
     },
     {
       id: 15,
       nextMatchId: null,
       tournamentRound: "Final",
-      participants: [{ id: "empty29" }, { id: "empty30" }],
+      participants: [
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
+        { id: "empty30" },
+      ],
     },
   ],
 };

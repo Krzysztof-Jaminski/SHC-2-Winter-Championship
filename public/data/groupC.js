@@ -121,14 +121,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Letonetma",
         },
         {
           id: "Ahmed",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Ahmed",
         },
       ],
@@ -218,14 +218,14 @@ const dataDoubleA = {
       participants: [
         {
           id: "Asluk",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Xeon",
         },
         {
           id: "惬意的紫色奶茶",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "惬意的紫色奶茶",
         },
       ],
@@ -234,19 +234,49 @@ const dataDoubleA = {
       id: 13,
       nextMatchId: 14,
       tournamentRound: "R4",
-      participants: [{ id: "empty25" }, { id: "empty26" }],
+      participants: [
+        {
+          id: "Asluk",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Xeon",
+        },
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
+      ],
     },
     {
       id: 14,
       nextMatchId: 15,
       tournamentRound: "R5",
-      participants: [{ id: "empty27" }, { id: "empty28" }],
+      participants: [
+        {
+          id: "Letonetma",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Letonetma",
+        },
+        { id: "empty28" },
+      ],
     },
     {
       id: 15,
       nextMatchId: null,
       tournamentRound: "Final",
-      participants: [{ id: "empty29" }, { id: "empty30" }],
+      participants: [
+        {
+          id: "Letonetma",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Letonetma",
+        },
+        ,
+        { id: "empty30" },
+      ],
     },
   ],
 };

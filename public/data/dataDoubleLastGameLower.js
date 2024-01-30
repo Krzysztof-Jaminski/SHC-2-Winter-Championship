@@ -6,10 +6,10 @@ const dataDoubleLastGameLower = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Finalist A",
+          id: "Hawt",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 1 A",
+          name: "Hawt",
         },
         {
           id: "Finalist A",
@@ -25,16 +25,16 @@ const dataDoubleLastGameLower = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Finalist 1 B",
-          resultText: "ToPlay",
+          id: "Hakerxus",
+          resultText: "Win",
           isWinner: true,
-          name: "Finalist 1 B",
+          name: "Hakerxus",
         },
         {
-          id: "Finalist 1 B",
-          resultText: "ToPlay",
-          isWinner: true,
-          name: "Finalist 2 B",
+          id: "Alexander Nevsky",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Alexander Nevsky",
         },
       ],
     },
@@ -44,10 +44,10 @@ const dataDoubleLastGameLower = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Finalist 1 C",
+          id: "Letonetma",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 1 C",
+          name: "Letonetma",
         },
         {
           id: "Finalist 1 C",
@@ -80,7 +80,15 @@ const dataDoubleLastGameLower = {
       id: 5,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty9" }, { id: "empty10" }],
+      participants: [
+        { id: "empty9" },
+        {
+          id: "Hakerxus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hakerxus",
+        },
+      ],
     },
     {
       id: 6,
@@ -100,7 +108,15 @@ const dataDoubleLastGameLower = {
       id: 8,
       nextMatchId: 10,
       tournamentRound: "R1",
-      participants: [{ id: "empty15" }, { id: "empty16" }],
+      participants: [
+        {
+          id: "Alexander Nevsky",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Alexander Nevsky",
+        },
+        { id: "empty16" },
+      ],
     },
     {
       id: 9,
