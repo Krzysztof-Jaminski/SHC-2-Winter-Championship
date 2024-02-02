@@ -12,10 +12,10 @@ const dataDoubleLastGameLower = {
           name: "Hawt",
         },
         {
-          id: "Finalist A",
+          id: "AB",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 2 A",
+          name: "AB",
         },
       ],
     },
@@ -50,10 +50,10 @@ const dataDoubleLastGameLower = {
           name: "Letonetma",
         },
         {
-          id: "Finalist 1 C",
+          id: "Ahmed",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Finalist 2 C",
+          name: "Ahmed",
         },
       ],
     },
@@ -63,10 +63,10 @@ const dataDoubleLastGameLower = {
       tournamentRound: "R1",
       participants: [
         {
-          id: "Albercikk",
+          id: "Falcon",
           resultText: "ToPlay",
           isWinner: true,
-          name: "Albercikk",
+          name: "Falcon",
         },
         {
           id: "Chezzi",

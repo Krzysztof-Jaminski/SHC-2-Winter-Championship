@@ -35,6 +35,9 @@ const NewsSection = () => {
         </p>
         <p className="mt-4"> ROUND 2,3,4 of the GROUP STAGE </p>
         <p className="mt-4">
+          <strong>Xeon vs Ahmed:</strong> 0-2{" "}
+        </p>
+        <p className="mt-4">
           <strong>Letonetma vs Ahmed:</strong> 2-1{" "}
         </p>
         <p className="mt-4">

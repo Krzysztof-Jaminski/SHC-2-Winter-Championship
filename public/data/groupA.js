@@ -218,11 +218,16 @@ const dataDoubleA = {
       participants: [
         {
           id: "FAORS",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "FAORS",
         },
-        { id: "empty24" },
+        {
+          id: "Apithos",
+          resultText: "Win",
+          isWinner: true,
+          name: "AB",
+        },
       ],
     },
     {
@@ -232,11 +237,16 @@ const dataDoubleA = {
       participants: [
         {
           id: "CasusObliquus",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "CasusObliquus",
         },
-        { id: "empty26" },
+        {
+          id: "Apithos",
+          resultText: "Win",
+          isWinner: true,
+          name: "AB",
+        },
       ],
     },
     {
@@ -250,7 +260,12 @@ const dataDoubleA = {
           isWinner: true,
           name: "Hawt",
         },
-        { id: "empty28" },
+        {
+          id: "Apithos",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "AB",
+        },
       ],
     },
     {
@@ -264,7 +279,13 @@ const dataDoubleA = {
           isWinner: true,
           name: "Hawt",
         },
-        { id: "empty30" },
+        {
+          id: "Apithos",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "AB",
+        },
+        ,
       ],
     },
   ],

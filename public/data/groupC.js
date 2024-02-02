@@ -237,13 +237,13 @@ const dataDoubleA = {
       participants: [
         {
           id: "Asluk",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Xeon",
         },
         {
           id: "Ahmed",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Ahmed",
         },
@@ -260,7 +260,12 @@ const dataDoubleA = {
           isWinner: true,
           name: "Letonetma",
         },
-        { id: "empty28" },
+        {
+          id: "Ahmed",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Ahmed",
+        },
       ],
     },
     {
@@ -274,8 +279,12 @@ const dataDoubleA = {
           isWinner: true,
           name: "Letonetma",
         },
-        ,
-        { id: "empty30" },
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
       ],
     },
   ],
