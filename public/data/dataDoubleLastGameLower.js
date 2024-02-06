@@ -7,15 +7,15 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
         {
-          id: 7,
-          nextMatchId: 14,
-          tournamentRound: "R3",
-          participants: [{ id: "empty13" }, { id: "empty14" }],
+          id: "Thunder",
+          resultText: "Lose",
+          isWinner: false,
+          name: "Thunder",
         },
       ],
     },
@@ -64,13 +64,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Falcon",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Falcon",
         },
         {
           id: "Chezzi",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Chezzi",
         },
@@ -81,7 +81,12 @@ const dataDoubleLastGameLower = {
       nextMatchId: 7,
       tournamentRound: "R2",
       participants: [
-        { id: "empty9" },
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
         {
           id: "Hakerxus",
           resultText: "ToPlay",
@@ -94,7 +99,15 @@ const dataDoubleLastGameLower = {
       id: 6,
       nextMatchId: 7,
       tournamentRound: "R2",
-      participants: [{ id: "empty11" }, { id: "empty12" }],
+      participants: [
+        { id: "empty11" },
+        {
+          id: "Chezzi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Chezzi",
+        },
+      ],
     },
     {
       id: 7,
@@ -115,14 +128,27 @@ const dataDoubleLastGameLower = {
           isWinner: true,
           name: "Alexander Nevsky",
         },
-        { id: "empty16" },
+        {
+          id: "Thunder",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Thunder",
+        },
       ],
     },
     {
       id: 9,
       nextMatchId: 11,
       tournamentRound: "R1",
-      participants: [{ id: "empty17" }, { id: "empty18" }],
+      participants: [
+        {
+          id: "Falcon",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Falcon",
+        },
+        { id: "empty18" },
+      ],
     },
     {
       id: 10,
