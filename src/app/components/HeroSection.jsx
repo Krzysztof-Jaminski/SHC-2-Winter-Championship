@@ -13,7 +13,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
               Crusader 2 Championship
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Winter Showdown",

@@ -2,6 +2,22 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
+const VideoSection = () => {
+  return (
+    <div className="text-center mt-8">
+      <div className="relative" style={{ paddingTop: "56.25%" }}>
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/zpQ6H-xDWAc?autoplay=1&mute=1&loop=1&playlist=zpQ6H-xDWAc&controls=0&modestbranding=1"
+          title="Tournament Game Live"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
 const AnimatedNumbers = dynamic(
   () => {
     return import("react-animated-numbers");
@@ -59,6 +75,8 @@ const AchievementsSection = () => {
         })}
       </div>
       <p className="py-6">&nbsp;</p>
+
+      <VideoSection />
     </div>
   );
 };
