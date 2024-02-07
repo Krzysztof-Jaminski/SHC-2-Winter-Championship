@@ -83,13 +83,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Hawt",
         },
         {
           id: "Hakerxus",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hakerxus",
         },
@@ -112,8 +112,16 @@ const dataDoubleLastGameLower = {
     {
       id: 7,
       nextMatchId: 14,
-      tournamentRound: "R3",
-      participants: [{ id: "empty13" }, { id: "empty14" }],
+      tournamentRound: "R4",
+      participants: [
+        {
+          id: "Hakerxus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hakerxus",
+        },
+        { id: "empty14" },
+      ],
     },
   ],
   lower: [
@@ -124,13 +132,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Alexander Nevsky",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Alexander Nevsky",
         },
         {
           id: "Thunder",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Thunder",
         },
@@ -154,13 +162,29 @@ const dataDoubleLastGameLower = {
       id: 10,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty19" }, { id: "empty20" }],
+      participants: [
+        {
+          id: "Thunder",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Thunder",
+        },
+        { id: "empty20" },
+      ],
     },
     {
       id: 11,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty21" }, { id: "empty22" }],
+      participants: [
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
+        { id: "empty22" },
+      ],
     },
     {
       id: 12,
