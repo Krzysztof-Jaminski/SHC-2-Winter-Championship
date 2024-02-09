@@ -45,14 +45,14 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Letonetma",
         },
         {
           id: "Ahmed",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Ahmed",
         },
       ],
@@ -100,7 +100,12 @@ const dataDoubleLastGameLower = {
       nextMatchId: 7,
       tournamentRound: "R2",
       participants: [
-        { id: "empty11" },
+        {
+          id: "Letonetma",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Letonetma",
+        },
         {
           id: "Chezzi",
           resultText: "ToPlay",
@@ -155,7 +160,12 @@ const dataDoubleLastGameLower = {
           isWinner: true,
           name: "Falcon",
         },
-        { id: "empty18" },
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
       ],
     },
     {
@@ -169,22 +179,19 @@ const dataDoubleLastGameLower = {
           isWinner: true,
           name: "Thunder",
         },
-        { id: "empty20" },
-      ],
-    },
-    {
-      id: 11,
-      nextMatchId: 12,
-      tournamentRound: "R2",
-      participants: [
         {
           id: "Hawt",
           resultText: "ToPlay",
           isWinner: true,
           name: "Hawt",
         },
-        { id: "empty22" },
       ],
+    },
+    {
+      id: 11,
+      nextMatchId: 12,
+      tournamentRound: "R2",
+      participants: [{ id: "empty21" }, { id: "empty22" }],
     },
     {
       id: 12,
