@@ -102,14 +102,14 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Letonetma",
         },
         {
           id: "Chezzi",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Chezzi",
         },
       ],
@@ -125,7 +125,12 @@ const dataDoubleLastGameLower = {
           isWinner: true,
           name: "Hakerxus",
         },
-        { id: "empty14" },
+        {
+          id: "Letonetma",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Letonetma",
+        },
       ],
     },
   ],
@@ -156,13 +161,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Falcon",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Falcon",
         },
         {
           id: "Ahmed",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Ahmed",
         },
@@ -175,13 +180,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Thunder",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Thunder",
         },
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
@@ -191,7 +196,20 @@ const dataDoubleLastGameLower = {
       id: 11,
       nextMatchId: 12,
       tournamentRound: "R2",
-      participants: [{ id: "empty21" }, { id: "empty22" }],
+      participants: [
+        {
+          id: "Ahmed",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Ahmed",
+        },
+        {
+          id: "Chezzi",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Chezzi",
+        },
+      ],
     },
     {
       id: 12,
