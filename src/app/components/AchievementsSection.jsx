@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-import { VideoSection } from "./VideoSection";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -60,8 +59,6 @@ const AchievementsSection = () => {
         })}
       </div>
       <p className="py-6">&nbsp;</p>
-
-      <VideoSection />
     </div>
   );
 };

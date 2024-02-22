@@ -38,6 +38,11 @@ const RulesSection = () => {
           according to rules posted in the Tournament News section on the
           website for each round.
         </li>
+        <li>
+          In Final Bracket each match is best-of-five, where each player select
+          only 1 map and 3 are random, draws in all cases can be taken and they
+          are giving 1 point per both, rather then 0.5.
+        </li>
       </ul>
 
       <h3 className="cool-gradient-text text-xl font-bold">Game Settings:</h3>

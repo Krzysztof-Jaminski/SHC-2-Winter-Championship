@@ -19,10 +19,12 @@ const NewsSection = () => {
       </h2>
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
-      <p className="py-6">&nbsp;</p>
-      <p className="py-6">&nbsp;</p>
 
       <div className="text-center mt-12">
+        <strong>Random map and rules selector use for tournament games!</strong>
+        <CM></CM>
+        <p className="py-6">&nbsp;</p>
+        <p className="py-6">&nbsp;</p>
         <p className="cool-gradient-text text-md font-bold">
           Comprehensive Match Results
         </p>
@@ -31,7 +33,9 @@ const NewsSection = () => {
         <p className="mt-4"> Final Group Stage games:</p>
         <p className="mt-4">
           <strong>Letonetma vs Hakerxus :</strong> 3-1{" "}
-          <a href="">Match Replay</a>
+          <a href="https://www.youtube.com/embed/live_stream?channel=6DdPM2fxiwo">
+            Match Replay
+          </a>
         </p>
         <p className="mt-4">
           <strong>Hawt vs Thunder :</strong> 1-0 <a href="">Match Replay</a>
@@ -40,13 +44,22 @@ const NewsSection = () => {
           <strong>Ahmed vs Falcon :</strong> 1-0 <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
+          <strong>Letonetma vs Ahmed:</strong> 3-1{" "}
+          <a href="https://www.youtube.com/watch?v=_Ua3vHNIJy0&t=553s&ab_channel=ClanSquaD">
+            Match Replay
+          </a>
+        </p>
+        <p className="mt-4">
           <strong>Letonetma vs Chezzi :</strong> 3-2 <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
           <strong>Hakeruxs vs Hawt :</strong> 3-2 <a href="">Match Replay</a>
         </p>
         <p className="mt-4">
-          <strong>Chezzi vs Falcon :</strong> 3-2 <a href="">Match Replay</a>
+          <strong>Chezzi vs Falcon :</strong> 3-2{" "}
+          <a href="https://www.youtube.com/embed/zpQ6H-xDWAc?autoplay=1&mute=1&loop=1&playlist=zpQ6H-xDWAc&controls=0&modestbranding=1&start=0">
+            Match Replay
+          </a>
         </p>
         <p className="mt-4">
           <strong>Hakeruxs vs Alexander Nevsky :</strong> 3-0{" "}
@@ -201,9 +214,6 @@ const NewsSection = () => {
           <strong>Streaming Team:</strong> Hakeruxs, Vladimir, SD7804, Vsratii
           Baron, Murmelus.
         </p>
-        <p className="py-6">&nbsp;</p>
-        <strong>Check out Leaderboards!</strong>
-        <CM></CM>
       </div>
 
       <p className="py-6">&nbsp;</p>
