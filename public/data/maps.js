@@ -133,7 +133,7 @@ const maps = [
     imgUrl: "./images/maps/Lowland.jpg",
     mapName: "Lowland",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=2950628234",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3113296899",
     rules: "1k gold, medium goods, 10 peace, all off",
   },
 ];
