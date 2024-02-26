@@ -77,13 +77,19 @@ const NewsSection = () => {
           </p>
           <p className="mt-4">
             <strong>Letonetma vs Chezzi :</strong> 3-2{" "}
-            <a href="https://www.youtube.com/watch?v=ZuIZlJ7j8yY">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=ZuIZlJ7j8yY"
+            >
               Match Replay
             </a>
           </p>
           <p className="mt-4">
             <strong>Hakeruxs vs Hawt :</strong> 3-2{" "}
-            <a href="https://www.youtube.com/watch?v=pKZfU6p8Be8">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=pKZfU6p8Be8"
+            >
               Match Replay |
             </a>
             <a
