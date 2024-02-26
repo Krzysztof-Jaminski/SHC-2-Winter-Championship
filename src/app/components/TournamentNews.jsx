@@ -204,7 +204,7 @@ const NewsSection = () => {
             </a>
           </p>
           <p className="mt-4">
-            <strong>Rudra vs Vsratii Baron :</strong> 0-2 -{" "}
+            <strong>Rudra vs Vsratii Baron :</strong> 0-2{" "}
           </p>
           <p className="mt-4">
             <strong>Hakerxus vs Stalin:</strong> 2-0 -{" "}
