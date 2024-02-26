@@ -109,7 +109,10 @@ const NewsSection = () => {
           <p className="mt-4"> ROUND 2,3,4 of the GROUP STAGE </p>
           <p className="mt-4">
             <strong>Hakeruxs vs Alexander Nevsky :</strong> 3-0{" "}
-            <a href="https://www.youtube.com/watch?v=yU1d0_1073c">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=yU1d0_1073c"
+            >
               Match Replay
             </a>
           </p>
@@ -127,47 +130,96 @@ const NewsSection = () => {
           </p>
           <p className="mt-4">
             <strong>AB vs 惬意的紫色奶茶:</strong> 1-2{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=EJeZjyRNBbY"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Vsratii Baron vs Alexander Nevsky :</strong> 1-2{" "}
-            <a href="">Match Replay</a>
+            <a
+              href="https://www.youtube.com/watch?v=f1-TDx6fjXU"
+              target="_blank"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Vsratii Baron vs Elik :</strong> 2-0{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=zXGumZcdFVw"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
-            <strong>FAORS vs Illyrian :</strong> 2-1 <a href="">Match Replay</a>
+            <strong>FAORS vs Illyrian :</strong> 2-1{" "}
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=fYZxdQ9bifI"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
-            <strong>Alexander Nevsky vs Stalin :</strong> 2-0
+            <strong>Alexander Nevsky vs Stalin :</strong> 2-0{" "}
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=UHtdRVfsDGo"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Xeon vs Chezii :</strong> 0-2
           </p>
           <p className="mt-4">
-            <strong>Xeon vs Albercikk :</strong> 0-2 <a href="">Match Replay</a>
+            <strong>Xeon vs Albercikk :</strong> 0-2{" "}
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=jJUQRIXHTXM"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Xeon vs Protagonist :</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=r_sV-wI36oc&t=1836s"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>CasusObliquus vs Illyrian :</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=-xiOoCzIJCk&t=3647s"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Rudra vs Vsratii Baron :</strong> 0-2 -{" "}
-            <a href="">Match Replay</a>
           </p>
           <p className="mt-4">
             <strong>Hakerxus vs Stalin:</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
+            <a target="_blank" href="">
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Albercikk vs Chezii:</strong> 2-1 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=5X68FfNgJSw"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Letonetma vs AB:</strong> 2-0 - <a href="">Match Replay</a>
@@ -178,15 +230,24 @@ const NewsSection = () => {
           </p>
           <p className="mt-4">
             <strong>Hakerxus vs Rudra:</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
           </p>
           <p className="mt-4">
             <strong>Stalin vs Vsratii Baron:</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=oC7KuWLpiGQ&t=6694s"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Jedi vs Alexander Nevsky:</strong> 2-1 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=eWfSJEPzhPY&t=1309s"
+            >
+              Match Replay
+            </a>
           </p>
           <p className="mt-4">
             <strong>Elik vs Nil:</strong> 2-0
@@ -208,7 +269,12 @@ const NewsSection = () => {
           </p>
           <p className="mt-4">
             <strong>Chezzi vs Dodorus:</strong> 2-0 -{" "}
-            <a href="">Match Replay</a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=ajuBut3cbZQ&t=2648s"
+            >
+              Match Replay
+            </a>
           </p>
           {/* Matches from the provided group */}
           <p className="mt-4">
