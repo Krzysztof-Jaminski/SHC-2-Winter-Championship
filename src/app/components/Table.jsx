@@ -123,7 +123,11 @@ const Table = () => {
       <Row classNames="nfl">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(79, 192, 210, 1)" }}>
+            <a
+              href="https://steamcommunity.com/profiles/76561198992869879/"
+              style={{ color: "rgba(79, 192, 210, 1)" }}
+              target="_blank"
+            >
               Chezzi
             </a>
           }
@@ -180,7 +184,11 @@ const Table = () => {
       <Row classNames="mlb">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(108, 26, 196)" }}>
+            <a
+              href="https://steamcommunity.com/profiles/76561199490755719"
+              style={{ color: "rgba(108, 26, 196)" }}
+              target="_blank"
+            >
               Thunder
             </a>
           }
