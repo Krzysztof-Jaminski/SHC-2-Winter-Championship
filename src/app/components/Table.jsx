@@ -175,7 +175,7 @@ const Table = () => {
         <Entry text="#7" />
         <Entry text="3" />
         <Entry text="2" />
-        <Entry text="1.2" />
+        <Entry text="1.20" />
         <MoreContent>
           You are a realist, not a hypocrite, I knew it from the very beginning
         </MoreContent>
