@@ -222,7 +222,7 @@ const NewsSection = () => {
             </a>
           </p>
           <p className="mt-4">
-            <strong>Letonetma vs AB:</strong> 2-0 - <a href="">Match Replay</a>
+            <strong>Letonetma vs AB:</strong> 2-0
           </p>
           <p className="mt-4"> ROUND 1 GROUP STAGE </p>
           <p className="mt-4">
@@ -287,8 +287,7 @@ const NewsSection = () => {
             <strong>Ahmed vs Yoda:</strong> 2-0
           </p>
           <p className="mt-4">
-            <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 -{" "}
-            <a href="">Match Replay</a>
+            <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1
           </p>
         </div>
         <p className="py-6">&nbsp;</p>
