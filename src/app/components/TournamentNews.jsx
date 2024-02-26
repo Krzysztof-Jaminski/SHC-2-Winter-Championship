@@ -20,7 +20,7 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
       <p className="py-6">&nbsp;</p>
 
-      <div className="text-center mt-12">
+      <div className="text-center  mt-12">
         <strong>Random map and rules selector use for tournament games!</strong>
         <CM></CM>
         <p className="py-6">&nbsp;</p>
@@ -29,150 +29,202 @@ const NewsSection = () => {
           Comprehensive Match Results
         </p>
         <p></p>
-        {/* Matches from previous discussions */}
-        <p className="mt-4"> Final Group Stage games:</p>
-        <p className="mt-4">
-          <strong>Letonetma vs Hakerxus :</strong> 3-1{" "}
-          <a href="https://www.youtube.com/embed/live_stream?channel=6DdPM2fxiwo">
-            Match Replay
-          </a>
-        </p>
-        <p className="mt-4">
-          <strong>Hawt vs Thunder :</strong> 1-0 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Ahmed vs Falcon :</strong> 1-0 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Letonetma vs Ahmed:</strong> 3-1{" "}
-          <a href="https://www.youtube.com/watch?v=_Ua3vHNIJy0&t=553s&ab_channel=ClanSquaD">
-            Match Replay
-          </a>
-        </p>
-        <p className="mt-4">
-          <strong>Letonetma vs Chezzi :</strong> 3-2 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Hakeruxs vs Hawt :</strong> 3-2 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Chezzi vs Falcon :</strong> 3-2{" "}
-          <a href="https://www.youtube.com/embed/zpQ6H-xDWAc?autoplay=1&mute=1&loop=1&playlist=zpQ6H-xDWAc&controls=0&modestbranding=1&start=0">
-            Match Replay
-          </a>
-        </p>
-        <p className="mt-4">
-          <strong>Hakeruxs vs Alexander Nevsky :</strong> 3-0{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4"> ROUND 2,3,4 of the GROUP STAGE </p>
-        <p className="mt-4">
-          <strong>Xeon vs Ahmed:</strong> 0-2{" "}
-        </p>
-        <p className="mt-4">
-          <strong>Letonetma vs Ahmed:</strong> 2-1{" "}
-        </p>
-        <p className="mt-4">
-          <strong>Xeon vs 惬意的紫色奶茶:</strong> 2-0{" "}
-        </p>
-        <p className="mt-4">
-          <strong>Hawt vs CasusObliquus:</strong> 2-0{" "}
-        </p>
-        <p className="mt-4">
-          <strong>AB vs 惬意的紫色奶茶:</strong> 1-2 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Vsratii Baron vs Alexander Nevsky :</strong> 1-2{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Vsratii Baron vs Elik :</strong> 2-0{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>FAORS vs Illyrian :</strong> 2-1 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Alexander Nevsky vs Stalin :</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Xeon vs Chezii :</strong> 0-2
-        </p>
-        <p className="mt-4">
-          <strong>Xeon vs Albercikk :</strong> 0-2 <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Xeon vs Protagonist :</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>CasusObliquus vs Illyrian :</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Rudra vs Vsratii Baron :</strong> 0-2 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Hakerxus vs Stalin:</strong> 2-0 - <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Albercikk vs Chezii:</strong> 2-1 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Letonetma vs AB:</strong> 2-0 - <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4"> ROUND 1 GROUP STAGE </p>
-        <p className="mt-4">
-          <strong>Xeon vs Lawrence:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Hakerxus vs Rudra:</strong> 2-0 - <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Stalin vs Vsratii Baron:</strong> 2-0 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Jedi vs Alexander Nevsky:</strong> 2-1 -{" "}
-          <a href="">Match Replay</a>
-        </p>
-        <p className="mt-4">
-          <strong>Elik vs Nil:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Hawt vs FAORS:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Thunder vs Spartacus:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>CasusObliquus vs Apithos:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Illyrian vs Godofstrategy:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Albercikk vs Falcon:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Chezzi vs Dodorus:</strong> 2-0 - <a href="">Match Replay</a>
-        </p>
-        {/* Matches from the provided group */}
-        <p className="mt-4">
-          <strong>Letonetma vs RockLee:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>AB vs Superfly:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Ahmed vs Yoda:</strong> 2-0
-        </p>
-        <p className="mt-4">
-          <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 -{" "}
-          <a href="">Match Replay</a>
-        </p>
+        <div className="container mx-auto mt-4 text-center">
+          {/* Matches from previous discussions */}
+          <p className="mt-4"> Final Group Stage games:</p>
+          <p className="mt-4">
+            <strong>Ahmed vs Chezzi:</strong> 3-0{" "}
+            <a
+              href="https://www.youtube.com/watch?v=lLgPB7a2ZLs"
+              target="_blank"
+            >
+              Match Replay
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Letonetma vs Hakerxus :</strong> 3-1{" "}
+            <a
+              href="https://www.youtube.com/watch?v=6DdPM2fxiwo"
+              target="_blank"
+            >
+              Match Replay
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Hawt vs Thunder :</strong> 3-0
+          </p>
+          <p className="mt-4">
+            <strong>Ahmed vs Falcon :</strong> 3-0
+          </p>
+          <p className="mt-4">
+            <strong>Letonetma vs Ahmed:</strong> 3-1{" "}
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_Ua3vHNIJy0"
+              title="Letonetma vs Ahmed"
+              frameborder="0"
+              allowfullscreen
+              className="mx-auto"
+              style={{ display: "block" }}
+            ></iframe>
+            <a
+              href="https://www.youtube.com/watch?v=_PAtne162Go"
+              target="_blank"
+            >
+              Continuation
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Letonetma vs Chezzi :</strong> 3-2{" "}
+            <a href="https://www.youtube.com/watch?v=ZuIZlJ7j8yY">
+              Match Replay
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Hakeruxs vs Hawt :</strong> 3-2{" "}
+            <a href="https://www.youtube.com/watch?v=pKZfU6p8Be8">
+              Match Replay |
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=YQYVJIkoJsQ"
+              target="_blank"
+            >
+              | Continuation
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Chezzi vs Falcon :</strong> 3-2{" "}
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/zpQ6H-xDWAc"
+              title="Chezzi vs Falcon"
+              frameborder="0"
+              allowfullscreen
+              className="mx-auto"
+              style={{ display: "block" }}
+            ></iframe>
+          </p>
+          <p className="mt-4"> ROUND 2,3,4 of the GROUP STAGE </p>
+          <p className="mt-4">
+            <strong>Hakeruxs vs Alexander Nevsky :</strong> 3-0{" "}
+            <a href="https://www.youtube.com/watch?v=yU1d0_1073c">
+              Match Replay
+            </a>
+          </p>
+          <p className="mt-4">
+            <strong>Xeon vs Ahmed:</strong> 0-2{" "}
+          </p>
+          <p className="mt-4">
+            <strong>Letonetma vs Ahmed:</strong> 2-1{" "}
+          </p>
+          <p className="mt-4">
+            <strong>Xeon vs 惬意的紫色奶茶:</strong> 2-0{" "}
+          </p>
+          <p className="mt-4">
+            <strong>Hawt vs CasusObliquus:</strong> 2-0{" "}
+          </p>
+          <p className="mt-4">
+            <strong>AB vs 惬意的紫色奶茶:</strong> 1-2{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Vsratii Baron vs Alexander Nevsky :</strong> 1-2{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Vsratii Baron vs Elik :</strong> 2-0{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>FAORS vs Illyrian :</strong> 2-1 <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Alexander Nevsky vs Stalin :</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Xeon vs Chezii :</strong> 0-2
+          </p>
+          <p className="mt-4">
+            <strong>Xeon vs Albercikk :</strong> 0-2 <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Xeon vs Protagonist :</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>CasusObliquus vs Illyrian :</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Rudra vs Vsratii Baron :</strong> 0-2 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Hakerxus vs Stalin:</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Albercikk vs Chezii:</strong> 2-1 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Letonetma vs AB:</strong> 2-0 - <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4"> ROUND 1 GROUP STAGE </p>
+          <p className="mt-4">
+            <strong>Xeon vs Lawrence:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Hakerxus vs Rudra:</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Stalin vs Vsratii Baron:</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Jedi vs Alexander Nevsky:</strong> 2-1 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          <p className="mt-4">
+            <strong>Elik vs Nil:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Hawt vs FAORS:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Thunder vs Spartacus:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>CasusObliquus vs Apithos:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Illyrian vs Godofstrategy:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Albercikk vs Falcon:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Chezzi vs Dodorus:</strong> 2-0 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+          {/* Matches from the provided group */}
+          <p className="mt-4">
+            <strong>Letonetma vs RockLee:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>AB vs Superfly:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Ahmed vs Yoda:</strong> 2-0
+          </p>
+          <p className="mt-4">
+            <strong>Asluk vs 惬意的紫色奶茶:</strong> 2-1 -{" "}
+            <a href="">Match Replay</a>
+          </p>
+        </div>
         <p className="py-6">&nbsp;</p>
         <p className="py-6">&nbsp;</p>
         <p className="py-6">&nbsp;</p>
