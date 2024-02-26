@@ -98,7 +98,7 @@ const Table = () => {
         <Entry text="-" />
         <Entry text="-" />
         <Entry text="-" />
-        <MoreContent>---</MoreContent>
+        <MoreContent>Samunia</MoreContent>
       </Row>
       {/* Player 4 */}
       <Row classNames="mlb">
