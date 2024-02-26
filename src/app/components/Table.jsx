@@ -44,7 +44,11 @@ const Table = () => {
       <Row classNames="nfl">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(212, 130, 15)" }}>
+            <a
+              href="https://www.youtube.com/channel/UCejxP2QqmJTccwH5XwgK2zg"
+              target="_blank"
+              style={{ color: "rgba(212, 130, 15)" }}
+            >
               Letonetma
             </a>
           }
@@ -62,7 +66,11 @@ const Table = () => {
       <Row classNames="mlb">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(13, 163, 31)" }}>
+            <a
+              href="https://www.youtube.com/@hakerxus3968"
+              target="_blank"
+              style={{ color: "rgba(13, 163, 31)" }}
+            >
               Hakerxus
             </a>
           }
@@ -92,7 +100,11 @@ const Table = () => {
       <Row classNames="mlb">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(219, 13, 13)" }}>
+            <a
+              href="https://www.youtube.com/@ahmedg431"
+              style={{ color: "rgba(219, 13, 13)" }}
+              target="_blank"
+            >
               Ahmed
             </a>
           }
@@ -139,7 +151,11 @@ const Table = () => {
       <Row classNames="nfl">
         <Entry
           text={
-            <a href="#" style={{ color: "rgba(229, 37, 232)" }}>
+            <a
+              href="https://www.youtube.com/@Albert-gq4uy"
+              style={{ color: "rgba(229, 37, 232)" }}
+              target="_blank"
+            >
               Albercikk
             </a>
           }
