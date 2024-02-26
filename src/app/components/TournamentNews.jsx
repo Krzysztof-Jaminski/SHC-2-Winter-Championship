@@ -229,7 +229,7 @@ const NewsSection = () => {
             <strong>Xeon vs Lawrence:</strong> 2-0
           </p>
           <p className="mt-4">
-            <strong>Hakerxus vs Rudra:</strong> 2-0 -{" "}
+            <strong>Hakerxus vs Rudra:</strong> 2-0
           </p>
           <p className="mt-4">
             <strong>Stalin vs Vsratii Baron:</strong> 2-0 -{" "}
