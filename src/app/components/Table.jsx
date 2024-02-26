@@ -144,7 +144,7 @@ const Table = () => {
         <Entry text="3" />
         <Entry text="1.33" />
         <MoreContent>
-          Dominate the skies and leave your foes in shadows
+          In the realm of challenges, strength prevails.
         </MoreContent>
       </Row>
       {/* Player 7 */}
