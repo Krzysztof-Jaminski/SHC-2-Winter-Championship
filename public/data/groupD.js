@@ -255,10 +255,10 @@ const dataDoubleA = {
       tournamentRound: "R5",
       participants: [
         {
-          id: "Albercikk/Falcon",
+          id: "Albercikk",
           resultText: "Finalist",
           isWinner: true,
-          name: "Albercikk",
+          name: "Albercikk/Falcon",
         },
         {
           id: "Chezzi",
@@ -274,10 +274,10 @@ const dataDoubleA = {
       tournamentRound: "D group Final",
       participants: [
         {
-          id: "Falcon",
+          id: "Albercikk",
           resultText: "Lose",
           isWinner: false,
-          name: "Albercikk",
+          name: "Falcon",
         },
         {
           id: "Chezzi",
