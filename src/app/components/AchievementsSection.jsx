@@ -16,7 +16,7 @@ const numberOfMatches = 71; // Example number of matches
 
 const achievementsList = [
   {
-    metric: "Expected Amount of Players",
+    metric: "Participants",
     value: playersCount.toString(),
   },
   {
@@ -24,7 +24,7 @@ const achievementsList = [
     value: mapsCount.toString(),
   },
   {
-    metric: "Expected Matches",
+    metric: "Matches Best of 3 or 5",
     value: numberOfMatches.toString(),
   },
 ];
