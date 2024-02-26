@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
+import Table from "./Table";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -58,7 +59,9 @@ const AchievementsSection = () => {
           );
         })}
       </div>
-      <p className="py-6">&nbsp;</p>
+      <p className="py-4">&nbsp;</p>
+      <Table />
+      <p className="py-2">&nbsp;</p>
     </div>
   );
 };

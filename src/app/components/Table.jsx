@@ -1,0 +1,176 @@
+import React from "react";
+
+const Row = ({ children, classNames }) => {
+  return (
+    <section className={classNames}>
+      <article className="row">
+        <ul>{children}</ul>
+      </article>
+    </section>
+  );
+};
+
+const MoreContent = ({ children }) => {
+  return (
+    <ul className="more-content">
+      <li>{children}</li>
+    </ul>
+  );
+};
+
+const Entry = ({ text }) => {
+  return <li>{text}</li>;
+};
+
+const SportRow = () => {
+  return (
+    <main className="row title">
+      <ul>
+        <Entry text="Name" />
+        <Entry text="Position" />
+        <Entry text="Won Matches" />
+        <Entry text="Lost Matches" />
+        <Entry text="W/L Games" />
+      </ul>
+    </main>
+  );
+};
+
+const Table = () => {
+  return (
+    <div className="wrapper">
+      <SportRow />
+      {/* Player 1 */}
+      <Row classNames="nfl">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(212, 130, 15)" }}>
+              Letonetma
+            </a>
+          }
+        />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <MoreContent>
+          The victor is not victorious if the vanquished does not consider
+          himself so!
+        </MoreContent>
+      </Row>
+      {/* Player 2 */}
+      <Row classNames="mlb">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(13, 163, 31)" }}>
+              Hakerxus
+            </a>
+          }
+        />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <MoreContent>----</MoreContent>
+      </Row>
+      {/* Player 3 */}
+      <Row classNames="nfl">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(82, 210, 154, 1)" }}>
+              Hawt
+            </a>
+          }
+        />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <MoreContent>---</MoreContent>
+      </Row>
+      {/* Player 4 */}
+      <Row classNames="mlb">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(219, 13, 13)" }}>
+              Ahmed
+            </a>
+          }
+        />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <Entry text="-" />
+        <MoreContent>---</MoreContent>
+      </Row>
+      {/* Player 5 */}
+      <Row classNames="nfl">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(79, 192, 210, 1)" }}>
+              Chezzi
+            </a>
+          }
+        />
+        <Entry text="#5" />
+        <Entry text="5" />
+        <Entry text="3" />
+        <Entry text="1.28" />
+        <MoreContent>There are no losses. Only learnt lessons</MoreContent>
+      </Row>
+      {/* Player 6 */}
+      <Row classNames="mlb">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(219, 219, 26)" }}>
+              Falcon
+            </a>
+          }
+        />
+        <Entry text="#6" />
+        <Entry text="3" />
+        <Entry text="3" />
+        <Entry text="1.33" />
+        <MoreContent>
+          Dominate the skies and leave your foes in shadows
+        </MoreContent>
+      </Row>
+      {/* Player 7 */}
+      <Row classNames="nfl">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(229, 37, 232)" }}>
+              Albercikk
+            </a>
+          }
+        />
+        <Entry text="#7" />
+        <Entry text="3" />
+        <Entry text="2" />
+        <Entry text="1.5" />
+        <MoreContent>
+          You are a realist, not a hypocrite, I knew it from the very beginning
+        </MoreContent>
+      </Row>
+      {/* Player 8 */}
+      <Row classNames="mlb">
+        <Entry
+          text={
+            <a href="#" style={{ color: "rgba(108, 26, 196)" }}>
+              Thunder
+            </a>
+          }
+        />
+        <Entry text="#8" />
+        <Entry text="5" />
+        <Entry text="3" />
+        <Entry text="1.37" />
+        <MoreContent>
+          Dont get my attention, nothing to care about in that virtual world.
+        </MoreContent>
+      </Row>
+    </div>
+  );
+};
+
+export default Table;
