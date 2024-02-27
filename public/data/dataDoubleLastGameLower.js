@@ -218,14 +218,14 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
         {
           id: "Ahmed",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Ahmed",
         },
       ],
@@ -234,7 +234,20 @@ const dataDoubleLastGameLower = {
       id: 13,
       nextMatchId: 14,
       tournamentRound: "R4",
-      participants: [{ id: "empty25" }, { id: "empty26" }],
+      participants: [
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
+        {
+          id: "Hakerxus",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hakerxus",
+        },
+      ],
     },
     {
       id: 14,

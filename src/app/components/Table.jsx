@@ -59,7 +59,7 @@ const Table = () => {
         <Entry text="-" />
         <MoreContent>
           The victor is not victorious if the vanquished does not consider
-          himself so!
+          himself so
         </MoreContent>
       </Row>
       {/* Player 2 */}
@@ -79,7 +79,7 @@ const Table = () => {
         <Entry text="-" />
         <Entry text="-" />
         <Entry text="-" />
-        <MoreContent>----</MoreContent>
+        <MoreContent>I have a challenge for you: The Archer game</MoreContent>
       </Row>
       {/* Player 3 */}
       <Row classNames="nfl">
@@ -113,11 +113,13 @@ const Table = () => {
             </a>
           }
         />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <MoreContent>---</MoreContent>
+        <Entry text="#4" />
+        <Entry text="5" />
+        <Entry text="3" />
+        <Entry text="1.56" />
+        <MoreContent>
+          Economy is the base of all gameplay, The Gold Maker
+        </MoreContent>
       </Row>
       {/* Player 5 */}
       <Row classNames="nfl">

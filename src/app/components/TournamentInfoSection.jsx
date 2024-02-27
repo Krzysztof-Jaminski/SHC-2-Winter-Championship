@@ -28,14 +28,16 @@ const TournamentInfoSection = () => {
             Crusader 2 history.
           </p>
           <p className="text-base lg:text-lg mt-2">
-            Stay tuned for live streams and highlight reels of the tournament s
-            most pivotal matches, bringing you the essence of competitive
-            Crusader 2 gameplay right to your screens.
-          </p>
-          <p className="text-base lg:text-lg mt-2">
-            Registrations are now open for verified players eager to etch their
-            names in the annals of Crusader 2 s legacy. Join us for an
-            unparalleled competitive experience.
+            <a
+              href="https://drive.google.com/file/d/15mKeRLjd2m88RlCTHSDKLMUUWgsbDWje/view"
+              target="_blank"
+            >
+              By the way if you are still reading ... Seeking a comprehensive
+              guide to Crusader 2 economy? Look no further! Crafted by one of
+              the game s top gold-rushers Ahmed, this guide is tailored for
+              newcomers, ensuring a solid start in mastering the economic (
+              Click There )
+            </a>
           </p>
         </div>
         <div className="video-container mt-4 md:mt-0 space-y-4">

@@ -33,6 +33,15 @@ const NewsSection = () => {
           {/* Matches from previous discussions */}
           <p className="mt-4"> Final Group Stage games:</p>
           <p className="mt-4">
+            <strong>Hawt vs Ahmed</strong> 3-0.5{" "}
+            <a
+              href="https://www.youtube.com/watch?v=iD5KdAq-CgA"
+              target="_blank"
+            >
+              Match Replay
+            </a>
+          </p>
+          <p className="mt-4">
             <strong>Ahmed vs Chezzi:</strong> 3-0{" "}
             <a
               href="https://www.youtube.com/watch?v=lLgPB7a2ZLs"
