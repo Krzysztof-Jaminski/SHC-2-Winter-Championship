@@ -79,7 +79,7 @@ const Table = () => {
         <Entry text="-" />
         <Entry text="-" />
         <Entry text="-" />
-        <MoreContent>I have a challenge for you: The Archer game</MoreContent>
+        <MoreContent>Master of Archers</MoreContent>
       </Row>
       {/* Player 3 */}
       <Row classNames="nfl">
