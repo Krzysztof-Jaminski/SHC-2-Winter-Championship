@@ -402,8 +402,7 @@ const NewsSection = () => {
           <p className="text-lg mt-4 mb-6">
             The official website for the Crusader 2 Winter Championship has been
             launched. Website made by Letonetma, The Creator of Maps and Rules:
-            Hawt. Streamers: Vladimir, Baron. If you want to stream games or
-            help in any other ways, contact us on steam
+            Hawt.
           </p>
         </div>
         <p className="py-6">&nbsp;</p>
