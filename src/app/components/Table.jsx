@@ -116,7 +116,7 @@ const Table = () => {
         <Entry text="#4" />
         <Entry text="5" />
         <Entry text="3" />
-        <Entry text="1.56" />
+        <Entry text="1.62" />
         <MoreContent>
           Economy is the base of all gameplay, The Gold Maker
         </MoreContent>
