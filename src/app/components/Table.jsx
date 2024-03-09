@@ -62,25 +62,6 @@ const Table = () => {
           himself so
         </MoreContent>
       </Row>
-      {/* Player 2 */}
-      <Row classNames="mlb">
-        <Entry
-          text={
-            <a
-              href="https://www.youtube.com/@hakerxus3968"
-              target="_blank"
-              style={{ color: "rgba(13, 163, 31)" }}
-            >
-              Hakerxus
-            </a>
-          }
-        />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <MoreContent>Master of Archers</MoreContent>
-      </Row>
       {/* Player 3 */}
       <Row classNames="nfl">
         <Entry
@@ -99,6 +80,25 @@ const Table = () => {
         <Entry text="-" />
         <Entry text="-" />
         <MoreContent>Samunia</MoreContent>
+      </Row>
+      {/* Player 2 */}
+      <Row classNames="mlb">
+        <Entry
+          text={
+            <a
+              href="https://www.youtube.com/@hakerxus3968"
+              target="_blank"
+              style={{ color: "rgba(13, 163, 31)" }}
+            >
+              Hakerxus
+            </a>
+          }
+        />
+        <Entry text="#3" />
+        <Entry text="5" />
+        <Entry text="2" />
+        <Entry text="1.75" />
+        <MoreContent>Master of Archers</MoreContent>
       </Row>
       {/* Player 4 */}
       <Row classNames="mlb">
@@ -156,7 +156,7 @@ const Table = () => {
         <Entry text="#6" />
         <Entry text="3" />
         <Entry text="3" />
-        <Entry text="1.33" />
+        <Entry text="1.14" />
         <MoreContent>
           In the realm of challenges, strength prevails.
         </MoreContent>
@@ -198,7 +198,7 @@ const Table = () => {
         <Entry text="#8" />
         <Entry text="5" />
         <Entry text="3" />
-        <Entry text="1.37" />
+        <Entry text="1.10" />
         <MoreContent>
           Dont get my attention, nothing to care about in that virtual world.
         </MoreContent>

@@ -237,14 +237,14 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
         {
           id: "Hakerxus",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Hakerxus",
         },
       ],
@@ -256,11 +256,16 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
+          resultText: "Finalist",
           isWinner: true,
           name: "Letonetma",
         },
-        { id: "empty28" },
+        {
+          id: "Hawt",
+          resultText: "Finalist",
+          isWinner: true,
+          name: "Hawt",
+        },
       ],
     },
     {
@@ -274,7 +279,12 @@ const dataDoubleLastGameLower = {
           isWinner: true,
           name: "Letonetma",
         },
-        { id: "empty30" },
+        {
+          id: "Hawt",
+          resultText: "ToPlay",
+          isWinner: true,
+          name: "Hawt",
+        },
       ],
     },
   ],
