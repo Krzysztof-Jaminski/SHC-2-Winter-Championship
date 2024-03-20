@@ -275,13 +275,13 @@ const dataDoubleLastGameLower = {
       participants: [
         {
           id: "Letonetma",
-          resultText: "ToPlay",
-          isWinner: true,
+          resultText: "Lose",
+          isWinner: false,
           name: "Letonetma",
         },
         {
           id: "Hawt",
-          resultText: "ToPlay",
+          resultText: "Win",
           isWinner: true,
           name: "Hawt",
         },
