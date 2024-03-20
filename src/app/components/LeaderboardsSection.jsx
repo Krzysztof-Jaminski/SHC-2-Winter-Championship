@@ -279,8 +279,7 @@ const LeaderboardsSection = () => {
           </h3>
           <p className="text-base lg:text-lg mt-2">
             The final bracket, comprising the best from each group, follows the
-            same double elimination format. The grand finals will witness the
-            ultimate showdown to crown the champion of the tournament.
+            same double elimination format. No double Finals.
           </p>
 
           <p className="text-base lg:text-lg mt-2">

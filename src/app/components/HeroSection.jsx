@@ -32,9 +32,8 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg">
-            Join the ultimate Crusader 2 Tournament Experience the thrill,
-            strategize your moves, and emerge as the champion in this epic
-            showdown!
+            Join the Crusader 2 Tournament Experience the thrill, strategize
+            your moves, and emerge as the champion in this showdown!
           </p>
           <div>
             <span className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 to-blue-440 hover:bg-slate-200 text-white mr-4 cursor-pointer">
