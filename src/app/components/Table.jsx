@@ -45,28 +45,6 @@ const Table = () => {
         <Entry
           text={
             <a
-              href="https://www.youtube.com/channel/UCejxP2QqmJTccwH5XwgK2zg"
-              target="_blank"
-              style={{ color: "rgba(212, 130, 15)" }}
-            >
-              Letonetma
-            </a>
-          }
-        />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <MoreContent>
-          The victor is not victorious if the vanquished does not consider
-          himself so
-        </MoreContent>
-      </Row>
-      {/* Player 3 */}
-      <Row classNames="nfl">
-        <Entry
-          text={
-            <a
               href="https://www.youtube.com/watch?v=H0nS2Fl9b8s"
               target="_blank"
               style={{ color: "rgba(82, 210, 154, 1)" }}
@@ -75,12 +53,35 @@ const Table = () => {
             </a>
           }
         />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
-        <Entry text="-" />
+        <Entry text="#1" />
+        <Entry text="9" />
+        <Entry text="1" />
+        <Entry text="3.00" />
         <MoreContent>Samunia</MoreContent>
       </Row>
+      <Row classNames="nfl">
+        <Entry
+          text={
+            <a
+              href="https://www.youtube.com/channel/UCejxP2QqmJTccwH5XwgK2zg"
+              target="_blank"
+              style={{ color: "rgba(212, 130, 15)" }}
+            >
+              Letonetma
+            </a>
+          }
+        />
+        <Entry text="#2" />
+        <Entry text="7" />
+        <Entry text="1" />
+        <Entry text="2.00" />
+        <MoreContent>
+          The victor is not victorious if the vanquished does not consider
+          himself so
+        </MoreContent>
+      </Row>
+      {/* Player 3 */}
+
       {/* Player 2 */}
       <Row classNames="mlb">
         <Entry
