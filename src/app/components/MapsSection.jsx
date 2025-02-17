@@ -6,9 +6,6 @@ const MapsSection = () => {
 
   return (
     <section id="maps" className="container mx-auto px-12 py-4">
-      <p className="py-6">&nbsp;</p>
-      <p className="py-6">&nbsp;</p>
-      <h2 className="text-4xl font-bold text-white mb-4">Maps</h2>
       <div className="mb-6">
         <p className="py-2">&nbsp;</p>
       </div>

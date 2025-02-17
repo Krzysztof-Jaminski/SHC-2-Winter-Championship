@@ -6,25 +6,25 @@
   font-size: 2.5rem; /* Larger font size */
   background: linear-gradient(
     to right,
-    #00c9ff,
-    #92fe9d
-  ); /* Bright blue-green gradient */
+    #005a9c,
+    /* Darker blue */ #00c9ff /* Light blue */
+  ); /* Dark blue to light blue gradient */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   font-weight: bold; /* Making text bold for added emphasis */
   margin-bottom: 1.5rem; /* Increase this value to create more space */
-  margin-top: 5 rem;
+  margin-top: 5rem;
 }
 
 .cool-gradient-text {
   font-size: 1.25rem; /* Slightly larger than normal text */
   background: linear-gradient(
     to right,
-    #00c9ff,
-    #92fe9d
-  ); /* Blue to violet gradient */
+    #005a9c,
+    /* Darker blue */ #00c9ff /* Light blue */
+  ); /* Dark blue to light blue gradient */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,9 +37,9 @@
 .player-gradient {
   background: linear-gradient(
     to right,
-    #8a2be2,
-    #4b6cb7
-  ); /* Violet to blue gradient */
+    #2bb4e2,
+    /* Violet remains unchanged */ #005a9c /* Dark blue */
+  ); /* Violet to dark blue gradient */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -201,7 +201,7 @@ body {
 /* Colors */
 :root {
   --blue: rgba(79, 192, 210, 1);
-  --green: rgba(82, 210, 154, 1);
+  --green: rgb(82, 108, 210);
   --yellow: rgba(231, 196, 104, 0.7);
   --orange: rgba(235, 118, 85, 1);
   --dark-bg: rgba(0, 0, 0, 0.9);
