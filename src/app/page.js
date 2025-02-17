@@ -16,9 +16,9 @@ export default function Home() {
         <Navbar />
         <div className="container mt-10 mx-auto px-0 py-0">
           <HeroSection />
+          <AchievementsSection />
           <RulesSection />
           <MapsSection />
-          <PlayersSection />
           <TournamentNews />
         </div>
         <Footer />

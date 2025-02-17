@@ -16,7 +16,7 @@ const RulesSection = () => {
           chosen map and one on their opponents.
         </li>
         <li>
-          If a game exceeds <strong>55 days after the peace period</strong>, it
+          If a game exceeds <strong>65 days after the peace period</strong>, it
           is considered a draw (0.5 points each). The game ends when a lord
           dies.
         </li>
