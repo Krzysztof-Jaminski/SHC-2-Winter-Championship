@@ -29,6 +29,7 @@ const NewsSection = () => {
         To sign up, send a private message or join here and post your nickname:
         <a
           href="https://steamcommunity.com/chat/invite/YV59wIF4"
+          target="_blank"
           className="text-blue-400 underline"
         >
           Link
