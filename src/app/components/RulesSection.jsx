@@ -13,12 +13,11 @@ const RulesSection = () => {
         </li>
         <li>
           Each player plays two games against every other player—one on their
-          chosen map and one on their opponents.
+          chosen map and one on their opponents. ( double round-robin format)
         </li>
         <li>
           If a game exceeds <strong>60 days after the peace period</strong>, it
-          is considered a draw (0.5 points each). The game ends when a lord
-          dies.
+          is considered a draw. The game ends when a lord dies.
         </li>
         <li>
           Players accumulate points, and the <strong>top 4</strong> advance to

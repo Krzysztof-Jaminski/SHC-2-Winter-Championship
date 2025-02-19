@@ -2,7 +2,7 @@ import MapCard from "./MapCard";
 import maps from "../../../public/data/maps";
 const MapsSection = () => {
   const allMapsDownloadUrl =
-    "https://steamcommunity.com/workshop/filedetails/?id=3013793496";
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=3430020102";
 
   return (
     <section id="maps" className="container mx-auto px-12 py-4">
@@ -25,7 +25,7 @@ const MapsSection = () => {
         href={allMapsDownloadUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-500 hover:bg-green-600 text-white font-medium py-2.5 px-5 rounded-lg inline-block"
+        className="bg-blue-500 hover:bg-blue-800 text-white font-medium py-2.5 px-5 rounded-lg inline-block"
       >
         Download All Maps
       </a>

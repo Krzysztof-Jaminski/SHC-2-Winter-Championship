@@ -11,20 +11,16 @@ const navLinks = [
     path: "#tournament-info",
   },
   {
-    title: "Players",
-    path: "#players",
+    title: "Rules",
+    path: "#rules",
   },
   {
     title: "Maps",
     path: "#maps",
   },
   {
-    title: "Leaderboards",
-    path: "#leaderboards",
-  },
-  {
     title: "News",
-    path: "#TournamentNews",
+    path: "#news",
   },
 ];
 

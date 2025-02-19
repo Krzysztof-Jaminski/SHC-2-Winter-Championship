@@ -50,7 +50,7 @@ const maps = [
     mapName: "Land Of Chivalry",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3278057507",
-    rules: "3750 gold, low res, very high food, no weapons, all off",
+    rules: "3750 gold, low res, very high food, no weapons, 10 peace, all off",
   },
   {
     imgUrl: "./images/maps/Colloseum2024.jpg",
