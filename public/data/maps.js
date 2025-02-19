@@ -29,7 +29,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3309115471",
     rules:
-      "7500 gold, very high res, very high food, 10 peace, all on, catapults vs troops allowed",
+      "7500 gold, very high res, very high food, 10 peace, all on, catapults vs troops allowed, no weapons buy",
   },
   {
     imgUrl: "./images/maps/Mars1.jpg",
