@@ -196,19 +196,6 @@ body {
   align-items: center; /* Center the content of each section */
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
-/* Colors */
-:root {
-  --blue: rgba(79, 192, 210, 1);
-  --green: rgb(82, 108, 210);
-  --yellow: rgba(231, 196, 104, 0.7);
-  --orange: rgba(235, 118, 85, 1);
-  --dark-bg: rgba(0, 0, 0, 0.9);
-  --light-bg: rgba(38, 50, 79, 0);
-  --text: rgba(255, 255, 255, 0.9);
-}
-
 /* Body */
 body {
   background: var(--dark-bg);
