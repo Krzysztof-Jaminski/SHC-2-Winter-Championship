@@ -16,7 +16,7 @@ const RulesSection = () => {
           chosen map and one on their opponents.
         </li>
         <li>
-          If a game exceeds <strong>65 days after the peace period</strong>, it
+          If a game exceeds <strong>60 days after the peace period</strong>, it
           is considered a draw (0.5 points each). The game ends when a lord
           dies.
         </li>
@@ -25,11 +25,11 @@ const RulesSection = () => {
           the semifinals and finals.
         </li>
         <li>
-          Semifinals and finals follow the same rules but consist of two
+          Semifinals and finals follow the same rules but consist of
           head-to-head matchups, player competes in 4 games instead of 2. The
-          time limit is <strong>35 days</strong>. In case of a tie, the total
-          number of points accumulated throughout the tournament decides the
-          winner!
+          time limit is <strong>40 days</strong> and better score in those 4
+          gives a win. In case of a tie, the total number of points accumulated
+          throughout the tournament decides the winner!
         </li>
       </ul>
 
@@ -42,7 +42,10 @@ const RulesSection = () => {
           <strong>No catapults vs. units</strong>, unless explicitly allowed.
         </li>
         <li>
-          <strong>Hussite wagons are allowed.</strong>
+          <strong>
+            Hussite wagons are allowed and always 250 army limit and 100
+            buildings
+          </strong>
         </li>
         <li>
           Games don’t need to be streamed unless they are controversial or
@@ -50,7 +53,9 @@ const RulesSection = () => {
         </li>
         <li>
           Each game must be hosted by a <strong>watcher/streamer</strong> who
-          starts the match.
+          starts the match. It does not have to be an official watcher it is
+          enough to have confirmation from both players and the watcher
+          regarding the maps, game results, and a screenshot of the end screen.
         </li>
       </ul>
 

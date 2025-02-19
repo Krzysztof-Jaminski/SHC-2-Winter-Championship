@@ -1,14 +1,15 @@
 import React from "react";
 
 const players = [
-  { name: "Hawt", won: 9, lost: 1, drawn: 4 },
-  { name: "Letonetma", won: 7, lost: 1, drawn: 5 },
-  { name: "Hakerxus", won: 5, lost: 2, drawn: 3 },
-  { name: "Ahmed", won: 5, lost: 3, drawn: 10 },
-  { name: "Chezzi", won: 5, lost: 3, drawn: 0 },
-  { name: "Falcon", won: 3, lost: 3, drawn: 0 },
-  { name: "Albercikk", won: 3, lost: 2, drawn: 0 },
-  { name: "Thunder", won: 5, lost: 3, drawn: 0 },
+  { name: "Hawt", won: 0, lost: 0, drawn: 0 },
+  { name: "Letonetma", won: 0, lost: 0, drawn: 0 },
+  { name: "Hakerxus", won: 0, lost: 0, drawn: 0 },
+  { name: "Ahmed", won: 0, lost: 0, drawn: 0 },
+  { name: "Chezzi", won: 0, lost: 0, drawn: 0 },
+  { name: "AB", won: 0, lost: 0, drawn: 0 },
+  { name: "Xeon", won: 0, lost: 0, drawn: 0 },
+  { name: "Lightning", won: 0, lost: 0, drawn: 0 },
+  { name: "Stalin", won: 0, lost: 0, drawn: 0 },
 ];
 
 const specialColors = ["#8A2BE2", "#8A2BE2", "#7B68EE", "#7B68EE"]; // Niebiesko-fioletowe
