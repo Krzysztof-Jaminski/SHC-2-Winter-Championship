@@ -1,5 +1,6 @@
 import MapCard from "./MapCard";
 import maps from "../../../public/data/maps";
+
 const MapsSection = () => {
   const allMapsDownloadUrl =
     "https://steamcommunity.com/sharedfiles/filedetails/?id=3430020102";
@@ -20,15 +21,17 @@ const MapsSection = () => {
           />
         ))}
       </div>
-      <p className="py-6 ">&nbsp;</p>
-      <a
-        href={allMapsDownloadUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-blue-500 hover:bg-blue-800 text-white font-medium py-2.5 px-5 rounded-lg inline-block"
-      >
-        Download All Maps
-      </a>
+      <p className="py-6">&nbsp;</p>
+      <div className="flex justify-center">
+        <a
+          href={allMapsDownloadUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-800 text-white font-medium py-2.5 px-5 rounded-lg inline-block"
+        >
+          Download All Maps
+        </a>
+      </div>
     </section>
   );
 };

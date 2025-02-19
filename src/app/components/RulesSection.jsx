@@ -27,8 +27,8 @@ const RulesSection = () => {
           Semifinals and finals follow the same rules but consist of
           head-to-head matchups, player competes in 4 games instead of 2. The
           time limit is <strong>40 days</strong> and better score in those 4
-          gives a win. In case of a tie, the total number of points accumulated
-          throughout the tournament decides the winner!
+          gives a win, player with higher points picks first map. In case of a
+          tie, players continue till advantage of 1.5
         </li>
       </ul>
 
@@ -43,7 +43,8 @@ const RulesSection = () => {
         <li>
           <strong>
             Hussite wagons are allowed and always 250 army limit and 100
-            buildings
+            buildings, always add 0,1,2 AI to match the limits, unless it is not
+            possible then use human watchers
           </strong>
         </li>
         <li>
