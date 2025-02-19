@@ -66,7 +66,7 @@ const maps = [
     mapName: "Cauldon 2024",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3277951402",
-    rules: " 1500 gold, medium goods, peace: 10, all on",
+    rules: " 1500 gold, medium goods, peace: 0, all on",
   },
   {
     imgUrl: "./images/maps/Colloseum2024.jpg",
