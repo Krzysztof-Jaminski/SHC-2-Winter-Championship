@@ -40,11 +40,11 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/SharpTeeth.jpg",
-    mapName: "Sharp Teeth",
+    mapName: "Desert Spires 2024",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3320701914",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3430640748",
     rules:
-      "7500 gold, high res, very high food, no starting weapons, 10 peace, all on, catapults vs troops allowed",
+      "7500 gold, high res, very high food, no starting weapons, 10 peace, all on, catapults vs troops allowed, no fire carts",
   },
   {
     imgUrl: "./images/maps/MountainRange2024.jpg",
