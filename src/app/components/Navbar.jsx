@@ -7,24 +7,20 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "Tournament Info",
+    title: "Info",
     path: "#tournament-info",
   },
   {
-    title: "Players",
-    path: "#players",
+    title: "Rules",
+    path: "#rules",
   },
   {
     title: "Maps",
     path: "#maps",
   },
   {
-    title: "Leaderboards",
-    path: "#leaderboards",
-  },
-  {
-    title: "Tournament News",
-    path: "#TournamentNews",
+    title: "News",
+    path: "#news",
   },
 ];
 
@@ -51,10 +47,10 @@ const Navbar = () => {
           href={""}
           className="text-2xl md:text-5xl font-semibold text-transparent bg-clip-text"
           style={{
-            backgroundImage: "linear-gradient(to left, #90ee90, #3182CE)",
+            backgroundImage: "linear-gradient(to left, #00c9ff, #005a9c)",
           }}
         >
-          SHC 2 Winter Championship
+          SHC 2 Winter Championship 2025
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
