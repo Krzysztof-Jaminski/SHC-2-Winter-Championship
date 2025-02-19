@@ -53,6 +53,13 @@ const maps = [
     rules: "3750 gold, low res, very high food, no weapons, 10 peace, all off",
   },
   {
+    imgUrl: "./images/maps/Siamess.jpg",
+    mapName: "Mars Siamese",
+    steamUrl:
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=613701298&searchtext=mars+siamese1",
+    rules: "5000 gold, high res, high food, 15 peace, all off",
+  },
+  {
     imgUrl: "./images/maps/Colloseum2024.jpg",
     mapName: "The Colosseum 2024",
     steamUrl:
@@ -66,6 +73,21 @@ const maps = [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3412561421",
     rules:
       "600k gold 0pt,0 food + no food buy,medium res all on, catapult vs troops allowed",
+  },
+  {
+    imgUrl: "./images/maps/Cauldon2024.jpg",
+    mapName: "Cauldon 2024",
+    steamUrl:
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3277951402",
+    rules: " 1500 gold, medium goods, peace: 10, all on",
+  },
+  {
+    imgUrl: "./images/maps/MountainRange2024.jpg",
+    mapName: "Mountain Range 2024",
+    steamUrl:
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3277346957",
+    rules:
+      "500 gold, low res, low food, no weapons, peace: 10, no european archers, all on",
   },
 ];
 

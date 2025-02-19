@@ -44,8 +44,9 @@ const NewsSection = () => {
         <strong> two - three weeks</strong>.
       </p>
       <p className="text-lg">
-        Anyone can stream the games, but the official streamers and watchers for
-        now are <strong>Letonetma</strong> and <strong>Chezzi</strong>.
+        Anyone can stream the games and be watcher, but the official streamers
+        for now are <strong>Letonetma</strong> and <strong>Chezzi</strong>,
+        helpers: <strong>PegaSuS22</strong>, <strong>CasusObliquus</strong>
       </p>
 
       <p className="py-6">&nbsp;</p>
