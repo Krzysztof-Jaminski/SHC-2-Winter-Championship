@@ -52,7 +52,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3277346957",
     rules:
-      "500 gold, low res, low food, no weapons, peace: 10, no european archers, all on",
+      "500 gold, low res, low food, no weapons, peace: 10, no european archers, all off",
   },
   {
     imgUrl: "./images/maps/LandOfChivalry.jpg",
