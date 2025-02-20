@@ -40,9 +40,7 @@ const NewsSection = () => {
         streamed. You can also play with an unofficial watcher.
       </p>
       <p className="text-lg mb-2">
-        Matches are expected to start on <strong>February 21, 2025</strong>,
-        though the date might change. The estimated duration is around
-        <strong> two - three weeks</strong>.
+        Matches are expected to start on <strong>February 21, 2025</strong>.
       </p>
       <p className="text-lg">
         Anyone can stream the games and be watcher, but the official streamers

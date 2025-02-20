@@ -16,7 +16,7 @@ const RulesSection = () => {
           chosen map and one on their opponents. ( double round-robin format)
         </li>
         <li>
-          If a game exceeds <strong>60 days after the peace period</strong>, it
+          If a game exceeds <strong>70 days after the peace period</strong>, it
           is considered a draw. The game ends when a lord dies.
         </li>
         <li>
@@ -24,11 +24,10 @@ const RulesSection = () => {
           the semifinals and finals.
         </li>
         <li>
-          Semifinals and finals follow the same rules but consist of
-          head-to-head matchups, player competes in 4 games instead of 2. The
-          time limit is <strong>40 days</strong> and better score in those 4
-          gives a win, player with higher points picks first map. In case of a
-          tie, players continue till advantage of 1.5
+          Semifinals and finals follow the same rules but have a separate
+          scoring table. Players compete in 4 games instead of 2. The time limit
+          is <strong>45 days</strong>, and the player with the highest score in
+          points wins the tournament.
         </li>
       </ul>
 
