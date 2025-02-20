@@ -39,7 +39,7 @@ const maps = [
     rules: "7500 gold, very high res, very high food, 10 peace, all off",
   },
   {
-    imgUrl: "./images/maps/SharpTeeth.jpg",
+    imgUrl: "./images/maps/DesertSpires.jpg",
     mapName: "Desert Spires 2024",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3430640748",
