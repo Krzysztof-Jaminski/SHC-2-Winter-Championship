@@ -88,7 +88,8 @@ const maps = [
     mapName: "Hakerxus-Archer Map",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3428767715",
-    rules: "7500 gold 5pt,very high food,medium weapons,medium army all off",
+    rules:
+      "7500 gold 5pt,very high food,medium resources,medium weapons,medium army all off",
   },
 ];
 
