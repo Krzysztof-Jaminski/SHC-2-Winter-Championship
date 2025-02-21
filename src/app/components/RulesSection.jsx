@@ -38,6 +38,7 @@ const RulesSection = () => {
         </li>
         <li>
           <strong>No catapults vs. units</strong>, unless explicitly allowed.
+          <strong>Long treb bug is allowed on the all maps</strong>
         </li>
         <li>
           <strong>
