@@ -28,7 +28,7 @@ const NewsSection = () => {
       <p className="text-lg mb-2">
         To sign up, send a private message or join here and post your nickname:
         <a
-          href="https://steamcommunity.com/chat/invite/YV59wIF4"
+          href="https://steamcommunity.com/chat/invite/d8meFu7z"
           target="_blank"
           className="text-blue-400 underline"
         >
@@ -40,7 +40,7 @@ const NewsSection = () => {
         streamed. You can also play with an unofficial watcher.
       </p>
       <p className="text-lg mb-2">
-        Matches are expected to start on <strong>February 21, 2025</strong>.
+        Matches are expected to start on <strong>February 22, 2025</strong>.
       </p>
       <p className="text-lg">
         Anyone can stream the games and be watcher, but the official streamers
