@@ -1,18 +1,31 @@
 import React from "react";
-import MapCard from "./MapCard";
-import CM from "./CM";
 
 const NewsSection = () => {
+  const recentGames = [
+    {
+      player1: "ILLYRIAN",
+      player2: "STALIN",
+      winner: "ILLYRIAN",
+      map: "Mars 2 Village with walls",
+      date: "22.02.2025",
+    },
+    {
+      player1: "ILLYRIAN",
+      player2: "STALIN",
+      winner: "ILLYRIAN",
+      map: "Hakerxus-Archer Map",
+      date: "22.02.2025",
+    },
+  ];
+
   return (
     <section id="news" className="text-white container mx-auto px-12 py-12">
       <p className="py-6">&nbsp;</p>
-      {/* Tournament Starts */}
       <h2 className="blue-gradient-text text-4xl font-bold mb-8 text-center">
         Tournament News
       </h2>
       <p className="py-6">&nbsp;</p>
 
-      {/* Announcement */}
       <h3 className="text-2xl font-bold text-center mb-4">
         Website Launch & Recruitment Open!
       </h3>
@@ -43,12 +56,38 @@ const NewsSection = () => {
         Matches are expected to start on <strong>February 22, 2025</strong>.
       </p>
       <p className="text-lg">
-        Anyone can stream the games and be watcher, but the official streamers
+        Anyone can stream the games and be a watcher, but the official streamers
         for now are <strong>Letonetma</strong> and <strong>Chezzi</strong>,
         helpers: <strong>PegaSuS22</strong>, <strong>CasusObliquus</strong>
       </p>
 
       <p className="py-6">&nbsp;</p>
+
+      {/* Recent Games Section */}
+      <h3 className="text-2xl font-bold text-center mb-4">Recent Games</h3>
+      <table className="w-full border border-white text-lg text-center">
+        <thead>
+          <tr>
+            <th className="border border-white px-4 py-2">Player 1</th>
+            <th className="border border-white px-4 py-2">Player 2</th>
+            <th className="border border-white px-4 py-2">Winner</th>
+            <th className="border border-white px-4 py-2">Map</th>
+            <th className="border border-white px-4 py-2">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {recentGames.map((game, index) => (
+            <tr key={index}>
+              <td className="border border-white px-4 py-2">{game.player1}</td>
+              <td className="border border-white px-4 py-2">{game.player2}</td>
+              <td className="border border-white px-4 py-2">{game.winner}</td>
+              <td className="border border-white px-4 py-2">{game.map}</td>
+              <td className="border border-white px-4 py-2">{game.date}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
       <p className="py-6">&nbsp;</p>
     </section>
   );
