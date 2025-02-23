@@ -4,16 +4,30 @@ const NewsSection = () => {
   const recentGames = [
     {
       player1: "ILLYRIAN",
-      player2: "STALIN",
-      winner: "ILLYRIAN",
-      map: "Mars 2 Village with walls",
-      date: "22.02.2025",
+      player2: "Letonetma",
+      winner: "Letonetma",
+      map: "Large Clover remake Medium 4 Player Balanced",
+      date: "23.02.2025",
+    },
+    {
+      player1: "ILLYRIAN",
+      player2: "Letonetma",
+      winner: "Letonetma",
+      map: "Hakerxus-Archer Map",
+      date: "23.02.2025",
     },
     {
       player1: "ILLYRIAN",
       player2: "STALIN",
       winner: "ILLYRIAN",
       map: "Hakerxus-Archer Map",
+      date: "22.02.2025",
+    },
+    {
+      player1: "ILLYRIAN",
+      player2: "STALIN",
+      winner: "ILLYRIAN",
+      map: "Mars 2 Village with walls",
       date: "22.02.2025",
     },
   ];
