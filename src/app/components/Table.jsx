@@ -12,6 +12,7 @@ const players = [
   { name: "Stalin", won: 0, lost: 2, drawn: 0 },
   { name: "CasusObliquus", won: 0, lost: 0, drawn: 0 },
   { name: "ILLYRIAN", won: 2, lost: 2, drawn: 0 },
+  { name: "nsvsochi", won: 0, lost: 0, drawn: 0 },
 ];
 
 const specialColors = ["#8A2BE2", "#8A2BE2", "#7B68EE", "#7B68EE"]; // Niebiesko-fioletowe
