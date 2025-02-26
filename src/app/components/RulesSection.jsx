@@ -27,7 +27,8 @@ const RulesSection = () => {
           Semifinals and finals follow the same rules but have a separate
           scoring table. Players compete in 4 games instead of 2. The time limit
           is <strong>45 days</strong>, and the player with the highest score in
-          points wins the tournament.
+          points wins the tournament. If players participated in games in the
+          previous stage, those games are already included in this stage.
         </li>
       </ul>
 
