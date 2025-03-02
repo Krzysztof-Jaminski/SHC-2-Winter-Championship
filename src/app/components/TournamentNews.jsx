@@ -3,6 +3,34 @@ import React from "react";
 const NewsSection = () => {
   const recentGames = [
     {
+      player1: "AB",
+      player2: "Hakerxus",
+      winner: "Hakerxus",
+      map: "Hakerxus-Archer Map",
+      date: "02.03.2025",
+    },
+    {
+      player1: "AB",
+      player2: "Hakerxus",
+      winner: "Hakerxus",
+      map: "Large Clover remake Medium 4 Player Balanced",
+      date: "02.03.2025",
+    },
+    {
+      player1: "AB",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Mars 2 Village with walls",
+      date: "02.03.2025",
+    },
+    {
+      player1: "AB",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Hakerxus-Archer Map",
+      date: "02.03.2025",
+    },
+    {
       player1: "ILLYRIAN",
       player2: "Chezzi",
       winner: "Chezzi",
