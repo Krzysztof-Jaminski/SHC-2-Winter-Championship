@@ -4,6 +4,20 @@ const NewsSection = () => {
   const recentGames = [
     {
       player1: "AB",
+      player2: "Letonetma",
+      winner: "Letonetma",
+      map: "Hakerxus-Archer Map",
+      date: "02.03.2025",
+    },
+    {
+      player1: "AB",
+      player2: "Letonetma",
+      winner: "Letonetma",
+      map: "Land Of Chivalry",
+      date: "02.03.2025",
+    },
+    {
+      player1: "AB",
       player2: "Hakerxus",
       winner: "Hakerxus",
       map: "Hakerxus-Archer Map",
