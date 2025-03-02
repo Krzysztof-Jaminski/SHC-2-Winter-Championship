@@ -6,7 +6,7 @@ const NewsSection = () => {
       player1: "AB",
       player2: "Letonetma",
       winner: "Letonetma",
-      map: "Hakerxus-Archer Map",
+      map: "Mars 2 Village with walls",
       date: "02.03.2025",
     },
     {
