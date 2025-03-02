@@ -3,10 +3,10 @@ import React from "react";
 const players = [
   { name: "Hawt", won: 0, lost: 0, drawn: 0 },
   { name: "Letonetma", won: 2, lost: 0, drawn: 0 },
-  { name: "Hakerxus", won: 0, lost: 0, drawn: 0 },
+  { name: "Hakerxus", won: 2, lost: 0, drawn: 0 },
   { name: "Ahmed/PegaSuS22", won: 0, lost: 0, drawn: 0 },
-  { name: "Chezzi", won: 2, lost: 0, drawn: 0 },
-  { name: "AB", won: 0, lost: 0, drawn: 0 },
+  { name: "Chezzi", won: 4, lost: 0, drawn: 0 },
+  { name: "AB", won: 0, lost: 4, drawn: 0 },
   { name: "Xeon", won: 0, lost: 0, drawn: 0 },
   { name: "Lightning", won: 0, lost: 0, drawn: 0 },
   { name: "Stalin", won: 0, lost: 2, drawn: 0 },
