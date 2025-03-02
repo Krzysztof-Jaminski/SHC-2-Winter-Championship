@@ -9,7 +9,8 @@ const RulesSection = () => {
       </h3>
       <ul className="text-lg list-disc list-inside mb-4">
         <li>
-          Players choose from a set list of maps, each with assigned rules.
+          Players choose from a set list of maps (1 and 0 peace time maps can
+          not be choosen before semifinals) each with assigned rules.
         </li>
         <li>
           Each player plays two games against every other player—one on their
