@@ -4,6 +4,20 @@ const NewsSection = () => {
   const recentGames = [
     {
       player1: "ILLYRIAN",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Hakerxus-Archer Map",
+      date: "02.03.2025",
+    },
+    {
+      player1: "ILLYRIAN",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Cauldon 2024",
+      date: "02.03.2025",
+    },
+    {
+      player1: "ILLYRIAN",
       player2: "Letonetma",
       winner: "Letonetma",
       map: "Large Clover remake Medium 4 Player Balanced",
