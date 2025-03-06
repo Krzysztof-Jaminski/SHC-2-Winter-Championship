@@ -4,6 +4,20 @@ const NewsSection = () => {
   const recentGames = [
     {
       player1: "Lightning",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Mountain Range 2024",
+      date: "06.03.2025",
+    },
+    {
+      player1: "Lightning",
+      player2: "Chezzi",
+      winner: "Chezzi",
+      map: "Mars 2 villages remake with walls",
+      date: "06.03.2025",
+    },
+    {
+      player1: "Lightning",
       player2: "PegaSuS22",
       winner: "PegaSuS22",
       map: "Hakerxus-Archer Map",
