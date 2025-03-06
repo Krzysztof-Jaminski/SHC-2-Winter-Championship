@@ -1,7 +1,6 @@
 import React from "react";
 
 const players = [
-  { name: "Hawt", won: 0, lost: 0, drawn: 0 },
   { name: "Letonetma", won: 4, lost: 0, drawn: 0 },
   { name: "Hakerxus", won: 4, lost: 0, drawn: 0 },
   { name: "Ahmed/PegaSuS22", won: 2, lost: 0, drawn: 0 },
