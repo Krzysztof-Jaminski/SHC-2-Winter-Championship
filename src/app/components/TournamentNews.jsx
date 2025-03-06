@@ -6,7 +6,7 @@ const NewsSection = () => {
       player1: "Lightning",
       player2: "PegaSuS22",
       winner: "PegaSuS22",
-      map: "Mars 2 Village with walls",
+      map: "Hakerxus-Archer Map",
       date: "06.03.2025",
     },
     {
@@ -20,7 +20,7 @@ const NewsSection = () => {
       player1: "Lightning",
       player2: "Hakerxus",
       winner: "Hakerxus",
-      map: "Mars 2 villages remake with walls",
+      map: "Mars 2 Village with walls",
       date: "03.03.2025",
     },
     {
