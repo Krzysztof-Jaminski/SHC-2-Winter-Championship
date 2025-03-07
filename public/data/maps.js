@@ -1,9 +1,9 @@
 const maps = [
   {
     imgUrl: "./images/maps/Siamess.jpg",
-    mapName: "Mars Siamese",
+    mapName: "Siamese",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=613701298&searchtext=mars+siamese1",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3440045920",
     rules:
       "5000 gold, high res, high food, 15 peace, all off, 2 watchers needed for army and buildings limits!",
   },
@@ -19,7 +19,7 @@ const maps = [
     imgUrl: "./images/maps/LargeCloverRemake.jpg",
     mapName: "Large Clover remake Medium 4 Player Balanced ",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=2342586271",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3439989155",
     rules:
       "5000 gold, high res, high food, 15 peace, 333 units 133 buildings all on",
   },
