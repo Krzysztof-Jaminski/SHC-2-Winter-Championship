@@ -10,7 +10,8 @@ const RulesSection = () => {
       <ul className="text-lg list-disc list-inside mb-4">
         <li>
           Players choose from a set list of maps (1 and 0 peace time maps can
-          not be choosen before semifinals) each with assigned rules.
+          not be choosen before semifinals) each with assigned rules, the
+          position is chosen by the person who did not choose the map.
         </li>
         <li>
           Each player plays two games against every other player—one on their
