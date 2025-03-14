@@ -46,6 +46,11 @@ const RulesSection = () => {
           <strong>Long treb bug is allowed.</strong>
         </li>
         <li>
+          Removing/destroying markets outside the map is NOT ALLOWED, tower bug
+          is allowed only in peace time (you can not build stone structures on
+          units) you can always remove them from under units
+        </li>
+        <li>
           <strong>
             Hussite wagons are allowed and always 250 army limit and 100
             buildings, always add 0,1,2 AI to match the limits, unless it is not
