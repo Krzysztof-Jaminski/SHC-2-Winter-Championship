@@ -66,14 +66,14 @@ const maps = [
     mapName: "Cauldon 2024",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3277951402",
-    rules: " 1500 gold, medium goods, peace: 1, all on",
+    rules: " 1500 gold, medium goods, peace: 0, all on",
   },
   {
     imgUrl: "./images/maps/Colloseum2024.jpg",
     mapName: "The Colosseum 2024",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3276652369",
-    rules: "1000 gold, very high goods,peace: 1, all on, no buy ",
+    rules: "1000 gold, very high goods,peace: 0, all on, no buy ",
   },
   {
     imgUrl: "./images/maps/600.jpg",
