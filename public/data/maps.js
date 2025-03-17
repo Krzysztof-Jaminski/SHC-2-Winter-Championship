@@ -16,12 +16,12 @@ const maps = [
       "1000 gold, med res, med food, 15 peace, no weapons, 5 houses all on",
   },
   {
-    imgUrl: "./images/maps/LargeCloverRemake.jpg",
-    mapName: "Large Clover remake Medium 4 Player Balanced ",
+    imgUrl: "./images/maps/Fernir.jpg",
+    mapName: "Fernir",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3439989155",
     rules:
-      "5000 gold, high res, high food, 15 peace, 333 units 133 buildings all on",
+      "1000 gold, medium res, medium food, no weapons, 5 peace, no buy no sell, all on",
   },
   {
     imgUrl: "./images/maps/Mars2.jpg",

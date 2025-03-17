@@ -203,9 +203,7 @@ const NewsSection = () => {
         Matches are expected to start on <strong>February 22, 2025</strong>.
       </p>
       <p className="text-lg">
-        Anyone can stream the games and be a watcher, but the official streamers
-        for now are <strong>Letonetma</strong> and <strong>Chezzi</strong>,
-        helpers: <strong>PegaSuS22</strong>, <strong>CasusObliquus</strong>
+        Organizers: <strong>Letonetma</strong> and <strong>PegaSuS22</strong>
       </p>
 
       <p className="py-6">&nbsp;</p>
