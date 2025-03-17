@@ -19,7 +19,7 @@ const maps = [
     imgUrl: "./images/maps/Fernir.jpg",
     mapName: "Fernir",
     steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3439989155",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3084023988",
     rules:
       "1000 gold, medium res, medium food, no weapons, 5 peace, no buy no sell, all on",
   },
