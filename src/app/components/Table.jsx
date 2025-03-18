@@ -1,18 +1,18 @@
 import React from "react";
 
 const players = [
-  { name: "Letonetma", won: 5, lost: 0, drawn: 0 },
-  { name: "Hakerxus", won: 6, lost: 1, drawn: 0 },
-  { name: "PegaSuS22", won: 4, lost: 0, drawn: 0 },
-  { name: "Chezzi", won: 6, lost: 2, drawn: 0 },
-  { name: "AB", won: 0, lost: 8, drawn: 0 },
-  { name: "Xeon", won: 0, lost: 0, drawn: 0 },
-  { name: "Lightning", won: 0, lost: 6, drawn: 0 },
-  { name: "Stalin", won: 0, lost: 2, drawn: 0 },
-  { name: "CasusObliquus", won: 0, lost: 0, drawn: 0 },
-  { name: "ILLYRIAN", won: 2, lost: 4, drawn: 0 },
-  { name: "nsvsochi", won: 0, lost: 0, drawn: 0 },
-  { name: "Gioni", won: 0, lost: 0, drawn: 0 },
+  { name: "Letonetma", won: 9, lost: 0, drawn: 0 },
+  { name: "Hakerxus", won: 10, lost: 1, drawn: 0 },
+  { name: "Ahmed/PegaSuS22", won: 8, lost: 0, drawn: 0 },
+  { name: "Chezzi", won: 10, lost: 2, drawn: 0 },
+  { name: "AB", won: 4, lost: 8, drawn: 0 },
+  { name: "Xeon", won: 0, lost: 8, drawn: 0 },
+  { name: "Lightning", won: 4, lost: 6, drawn: 0 },
+  { name: "Stalin", won: 4, lost: 2, drawn: 0 },
+  { name: "CasusObliquus", won: 0, lost: 8, drawn: 0 },
+  { name: "ILLYRIAN", won: 6, lost: 4, drawn: 0 },
+  { name: "nsvsochi", won: 0, lost: 8, drawn: 0 },
+  { name: "Gioni", won: 0, lost: 8, drawn: 0 },
 ];
 
 const specialColors = ["#8A2BE2", "#8A2BE2", "#7B68EE", "#7B68EE"]; // Niebiesko-fioletowe

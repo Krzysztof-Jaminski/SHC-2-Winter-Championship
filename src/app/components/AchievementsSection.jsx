@@ -8,7 +8,9 @@ const AchievementsSection = () => {
     <div className="flex flex-col items-center justify-center text-center py-8">
       {/*<h2>Finals</h2>*/}
       {/*<SFTable />*/}
-      <h2>Leaderboard & Participants</h2>
+      <h2>Finalists Leaderboard</h2>
+      <SFTable />
+      <h2>Participants Leaderboard</h2>
       <Table />
     </div>
   );

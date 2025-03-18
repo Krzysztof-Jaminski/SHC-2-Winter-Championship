@@ -22,8 +22,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg max-w-2xl mx-auto">
-          Let me get straight to the point. The last tournament dragged on for
-          far too long, this time we focus on simplicity and activity.
+          Third edition of the annual winter tournament!
         </p>
         <div>
           <span className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 to-blue-440 hover:bg-slate-200 text-white mr-4 cursor-pointer">

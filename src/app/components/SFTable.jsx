@@ -1,10 +1,10 @@
 import React from "react";
 
 const semifinalists = [
-  { name: "Semifinalist1", won: 0, lost: 0, drawn: 0 },
-  { name: "Semifinalist2", won: 0, lost: 0, drawn: 0 },
-  { name: "Semifinalist3", won: 0, lost: 0, drawn: 0 },
-  { name: "Semifinalist4", won: 0, lost: 0, drawn: 0 },
+  { name: "Hakerxus", won: 2, lost: 1, drawn: 0 },
+  { name: "Chezzi", won: 0, lost: 2, drawn: 0 },
+  { name: "Letonetma", won: 1, lost: 0, drawn: 0 },
+  { name: "PegaSuS22", won: 0, lost: 0, drawn: 0 },
 ];
 
 const specialColors = ["#8A2BE2", "#8A2BE2", "#7B68EE", "#7B68EE"];

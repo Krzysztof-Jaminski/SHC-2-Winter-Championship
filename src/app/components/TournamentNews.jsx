@@ -174,37 +174,70 @@ const NewsSection = () => {
       <p className="py-6">&nbsp;</p>
 
       <h3 className="text-2xl font-bold text-center mb-4">
+        First Stage of the Tournament Concluded!
+      </h3>
+      <ul className="text-lg mb-2 list-disc pl-6">
+        <li>
+          The first stage of the tournament has officially ended on{" "}
+          <strong>March 22, 2025</strong>. Players who did not play any matches,
+          despite joining the tournament, have been penalized with 1 loss for
+          each active player who participated in at least one match. This
+          ensures fair competition for all involved.
+        </li>
+        <li>
+          Additionally, due to technical reasons, the map{" "}
+          <strong>Large Clover</strong> has been replaced with{" "}
+          <strong>Fernir</strong>.
+        </li>
+        <li>
+          The draw time has been standardized to <strong>60 days</strong> after
+          the end of the peace time for all games.
+        </li>
+        <li>
+          We wish all players the best of luck in the next stage! Keep up the
+          great work!
+        </li>
+      </ul>
+
+      <p className="py-6">&nbsp;</p>
+
+      <h3 className="text-2xl font-bold text-center mb-4">
         Website Launch & Recruitment Open!
       </h3>
-      <p className="text-lg mb-2">
-        The website launches on <strong>February 19, 2025</strong>, and
-        recruitment begins!
-      </p>
-      <p className="text-lg mb-2">
-        Recruitment will stay open throughout the tournament until the
-        semifinals. The format will be a<strong> double round-robin</strong>,
-        where everyone plays against each other twice, and points are counted.
-      </p>
-      <p className="text-lg mb-2">
-        To sign up, send a private message or join here and post your nickname:
-        <a
-          href="https://steamcommunity.com/chat/invite/d8meFu7z"
-          target="_blank"
-          className="text-blue-400 underline"
-        >
-          Link
-        </a>
-      </p>
-      <p className="text-lg mb-2">
-        Reminder: This time, games <strong>can but don’t have to</strong> be
-        streamed. You can also play with an unofficial watcher.
-      </p>
-      <p className="text-lg mb-2">
-        Matches are expected to start on <strong>February 22, 2025</strong>.
-      </p>
-      <p className="text-lg">
-        Organizers: <strong>Letonetma</strong> and <strong>PegaSuS22</strong>
-      </p>
+      <ul className="text-lg mb-2 list-disc pl-6">
+        <li>
+          The website launches on <strong>February 19, 2025</strong>, and
+          recruitment begins!
+        </li>
+        <li>
+          Recruitment will stay open throughout the tournament until the
+          semifinals. The format will be a <strong>double round-robin</strong>,
+          where everyone plays against each other twice, and points are counted.
+        </li>
+        <li>
+          To sign up, send a private message or join here and post your
+          nickname:
+          <a
+            href="https://steamcommunity.com/chat/invite/d8meFu7z"
+            target="_blank"
+            className="text-blue-400 underline"
+          >
+            Link
+          </a>
+        </li>
+        <li>
+          Reminder: This time, games <strong>can but don’t have to</strong> be
+          streamed. You can also play with an unofficial watcher.
+        </li>
+        <li>
+          Matches are expected to start on <strong>February 22, 2025</strong>.
+        </li>
+        <li>
+          Organizers: <strong>Letonetma</strong> and <strong>PegaSuS22</strong>
+        </li>
+      </ul>
+
+      <p className="py-6">&nbsp;</p>
 
       <p className="py-6">&nbsp;</p>
 
