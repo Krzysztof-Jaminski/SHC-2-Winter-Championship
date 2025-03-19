@@ -5,7 +5,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3440045920",
     rules:
-      "5000 gold, high res, high food, 15 peace, all off, 2 watchers needed for army and buildings limits!",
+      "1k gold medium res 0 peace time all on , catapults vs troops allowed",
   },
   {
     imgUrl: "./images/maps/Igi-ramekLandoOfTheFreedoom.jpg",

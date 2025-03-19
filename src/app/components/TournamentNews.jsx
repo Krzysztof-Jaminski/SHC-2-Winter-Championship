@@ -194,6 +194,9 @@ const NewsSection = () => {
           the end of the peace time for all games.
         </li>
         <li>
+          <strong>Siamese</strong> rules has been changed.
+        </li>
+        <li>
           We wish all players the best of luck in the next stage! Keep up the
           great work!
         </li>
