@@ -8,14 +8,6 @@ const maps = [
       "1k gold medium res high weapons 0 peace time all on , catapults vs troops allowed",
   },
   {
-    imgUrl: "./images/maps/Igi-ramekLandoOfTheFreedoom.jpg",
-    mapName: "IgiBalance remake Land of Freedom",
-    steamUrl:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3309112594",
-    rules:
-      "1000 gold, med res, med food, 15 peace, no weapons, 5 houses all on",
-  },
-  {
     imgUrl: "./images/maps/Fernir.jpg",
     mapName: "Fernir",
     steamUrl:
@@ -90,6 +82,14 @@ const maps = [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3428767715",
     rules:
       "7500 gold 5pt,very high food,medium resources,medium weapons,medium army all off",
+  },
+  {
+    imgUrl: "./images/maps/Igi-ramekLandoOfTheFreedoom.jpg",
+    mapName: "IgiBalance remake Land of Freedom",
+    steamUrl:
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3309112594",
+    rules:
+      "1000 gold, med res, med food, 15 peace, no weapons, 5 houses all on",
   },
 ];
 
