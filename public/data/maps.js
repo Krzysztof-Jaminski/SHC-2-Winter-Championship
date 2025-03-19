@@ -5,7 +5,7 @@ const maps = [
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3440045920",
     rules:
-      "2500 gold very high resources, 10 minutes peace time, all off, catapults vs troops allowed",
+      "2500 gold very high resources, 10 peace, all off, catapults vs troops allowed",
   },
   {
     imgUrl: "./images/maps/Igi-ramekLandoOfTheFreedoom.jpg",
