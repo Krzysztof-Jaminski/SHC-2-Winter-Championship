@@ -187,10 +187,7 @@ const NewsSection = () => {
         <li>
           Additionally, due to technical reasons, the map{" "}
           <strong>Large Clover</strong> has been replaced with{" "}
-          <strong>Fernir</strong>
-        </li>
-        <li>
-          <strong>Siamese</strong> rules has been changed.
+          <strong>Fernir</strong>.
         </li>
         <li>
           The draw time has been standardized to <strong>60 days</strong> after
