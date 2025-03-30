@@ -1,9 +1,9 @@
 import React from "react";
 
 const semifinalists = [
-  { name: "Hakerxus", won: 2, lost: 1, drawn: 0 },
-  { name: "Chezzi", won: 0, lost: 2, drawn: 0 },
-  { name: "Letonetma", won: 1, lost: 0, drawn: 0 },
+  { name: "Hakerxus", won: 1, lost: 3, drawn: 0 },
+  { name: "Chezzi", won: 0, lost: 3, drawn: 0 },
+  { name: "Letonetma", won: 5, lost: 1, drawn: 0 },
   { name: "PegaSuS22", won: 0, lost: 0, drawn: 0 },
 ];
 

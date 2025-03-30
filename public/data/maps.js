@@ -17,7 +17,7 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/Mars2.jpg",
-    mapName: "Mars 2 villages remake Mountain Pass",
+    mapName: "Mountain Pass",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3309115471",
     rules:
@@ -25,14 +25,14 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/Mars1.jpg",
-    mapName: "Mars 2 villages remake with walls",
+    mapName: "Mars",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3425103316",
     rules: "7500 gold, very high res, very high food, 10 peace, all off",
   },
   {
     imgUrl: "./images/maps/DesertSpires.jpg",
-    mapName: "Desert Spires 2024",
+    mapName: "Desert Spires",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3430640748",
     rules:
@@ -40,7 +40,7 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/MountainRange2024.jpg",
-    mapName: "Mountain Range 2024",
+    mapName: "Mountain Range",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3277346957",
     rules:
@@ -55,21 +55,21 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/Cauldon2024.jpg",
-    mapName: "Cauldon 2024",
+    mapName: "Cauldon",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3277951402",
     rules: " 1500 gold, medium goods, peace: 0, all on",
   },
   {
     imgUrl: "./images/maps/Colloseum2024.jpg",
-    mapName: "The Colosseum 2024",
+    mapName: "The Colosseum",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3276652369",
     rules: "1000 gold, very high goods,peace: 0, all on, no buy ",
   },
   {
     imgUrl: "./images/maps/600.jpg",
-    mapName: "600 0 No Granary",
+    mapName: "600 0",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3412561421",
     rules:
@@ -85,7 +85,7 @@ const maps = [
   },
   {
     imgUrl: "./images/maps/Igi-ramekLandoOfTheFreedoom.jpg",
-    mapName: "IgiBalance remake Land of Freedom",
+    mapName: "Land of Freedom",
     steamUrl:
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3309112594",
     rules:

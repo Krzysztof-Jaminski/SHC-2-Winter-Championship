@@ -18,6 +18,10 @@ const RulesSection = () => {
           chosen map and one on their opponents. ( double round-robin format)
         </li>
         <li>
+          Each map can only be selected once during the entire match of 2
+          players (their 4 games)
+        </li>
+        <li>
           If a game exceeds <strong>60 days after the peace period</strong>, it
           is considered a draw. The game ends when a lord dies.
         </li>
