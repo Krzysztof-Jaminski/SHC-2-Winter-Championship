@@ -27,7 +27,7 @@ const NewsSection = () => {
       player1: "Hakerxus",
       player2: "Letonetma",
       winner: "Letonetma",
-      map: "Colloseum 2024",
+      map: "Colloseum",
       date: "31.03.2025",
     },
     {
