@@ -3,6 +3,20 @@ import React from "react";
 const NewsSection = () => {
   const recentGames = [
     {
+      player1: "Chezzi",
+      player2: "Letonetma",
+      winner: "Chezzi",
+      map: "Mars",
+      date: "03.03.2025",
+    },
+    {
+      player1: "Chezzi",
+      player2: "Letonetma",
+      winner: "Letonetma",
+      map: "Fernir",
+      date: "03.04.2025",
+    },
+    {
       player1: "Hakerxus",
       player2: "Letonetma",
       winner: "Letonetma",
