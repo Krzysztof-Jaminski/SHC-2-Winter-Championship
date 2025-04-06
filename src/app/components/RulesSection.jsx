@@ -13,6 +13,7 @@ const RulesSection = () => {
           not be choosen before semifinals) each with assigned rules, the
           position is chosen by the person who did not choose the map.
         </li>
+
         <li>
           Each player plays two games against every other player—one on their
           chosen map and one on their opponents. ( double round-robin format)
@@ -43,6 +44,7 @@ const RulesSection = () => {
         <li>
           Either <strong>all-on</strong> or <strong>all-off</strong> settings.
         </li>
+        <li>No tax rolling</li>
         <li>
           <strong>No catapults vs. units</strong>, unless explicitly allowed.
         </li>
