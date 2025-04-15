@@ -3,11 +3,67 @@ import React from "react";
 const NewsSection = () => {
   const recentGames = [
     {
+      player1: "PegasuS22",
+      player2: "Chezzi",
+      winner: "PegasuS22",
+      map: "Mountain Pass",
+      date: "10.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Chezzi",
+      winner: "PegasuS22",
+      map: "Siamese",
+      date: "10.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Chezzi",
+      winner: "PegasuS22",
+      map: "Land of the Freedoom",
+      date: "10.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Chezzi",
+      winner: "PegasuS22",
+      map: "600 0",
+      date: "10.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Letonetma",
+      winner: "PegasuS22",
+      map: "Fernir",
+      date: "07.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Letonetma",
+      winner: "PegasuS22",
+      map: "Mountain Pass",
+      date: "07.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Letonetma",
+      winner: "PegasuS22",
+      map: "Siamese",
+      date: "07.04.2025",
+    },
+    {
+      player1: "PegasuS22",
+      player2: "Letonetma",
+      winner: "PegasuS22",
+      map: "Desert Spires",
+      date: "07.04.2025",
+    },
+    {
       player1: "Chezzi",
       player2: "Letonetma",
       winner: "Chezzi",
       map: "Mars",
-      date: "03.03.2025",
+      date: "03.04.2025",
     },
     {
       player1: "Chezzi",
@@ -222,6 +278,28 @@ const NewsSection = () => {
       </h2>
       <p className="py-6">&nbsp;</p>
 
+      {/* Tournament Concluded - NEWEST NEWS ON TOP */}
+      <h3 className="text-2xl font-bold text-center mb-4">
+        Tournament Concluded!
+      </h3>
+      <p className="text-lg text-center mb-4">
+        The tournament officially concluded on <strong>April 10, 2025</strong>.
+        Congratulations to the winner PegaSuS22 and best of luck to all
+        participants in future editions!
+      </p>
+      <p className="text-lg text-center">
+        Watch the best games from the tournament here:{" "}
+        <a
+          href="https://www.youtube.com/playlist?list=PLNApg9AgAm0b6eRKm4HZJw8VU9Sxn8TmD"
+          target="_blank"
+          className="text-blue-400 underline"
+        >
+          YouTube Playlist
+        </a>
+      </p>
+
+      <p className="py-6">&nbsp;</p>
+
       <h3 className="text-2xl font-bold text-center mb-4">
         First Stage of the Tournament Concluded!
       </h3>
@@ -284,12 +362,7 @@ const NewsSection = () => {
         <li>
           Matches are expected to start on <strong>February 22, 2025</strong>.
         </li>
-        <li>
-          Organizers: <strong>Letonetma</strong> and <strong>PegaSuS22</strong>
-        </li>
       </ul>
-
-      <p className="py-6">&nbsp;</p>
 
       <p className="py-6">&nbsp;</p>
 
