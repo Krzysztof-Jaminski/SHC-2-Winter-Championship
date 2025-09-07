@@ -509,3 +509,86 @@ ul.more-content li {
     color: var(--text);
   }
 }
+
+/* Video Showcase Styles */
+.video-showcase {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-thumbnail {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-thumbnail:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.video-thumbnail.active {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
+
+.play-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(239, 68, 68, 0.4);
+}
+
+/* Gradient text animation */
+.gradient-text {
+  background: linear-gradient(-45deg, #3b82f6, #8b5cf6, #06b6d4, #3b82f6);
+  background-size: 400% 400%;
+  animation: gradientShift 3s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Floating animation for background elements */
+.floating {
+  animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Pulse animation for active video indicator */
+.pulse-ring {
+  animation: pulseRing 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.33);
+  }
+  40%, 50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
