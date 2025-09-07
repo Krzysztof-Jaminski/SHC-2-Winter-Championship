@@ -14,7 +14,7 @@ import MapsSection from "./components/MapsSection";
 import LeaderboardsSection from "./components/LeaderboardsSection";
 
 export default function Home() {
-  const [isInVideoSection, setIsInVideoSection] = useState(false);
+  const [isInVideoSection, setIsInVideoSection] = useState(true);
 
   const handleVideoSectionChange = (inVideoSection) => {
     setIsInVideoSection(inVideoSection);

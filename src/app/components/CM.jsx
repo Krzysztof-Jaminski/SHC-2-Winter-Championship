@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import MapCard from "./MapCard";
 import maps from "../../../public/data/maps";
 
@@ -9,7 +9,7 @@ const CM = () => {
 
   const moment = require("moment-timezone");
 
-  const getPseudoRandomNumber = () => {
+  const getPseudoRandomNumber = useCallback(() => {
     const now = moment().tz("Europe/London");
 
     // Modified seed calculation: does not change every minute
@@ -30,12 +30,12 @@ const CM = () => {
     const index =
       Math.floor((now.hours() * 60) / 15 + now.minutes() / 15) % maps.length;
     return numbers[index];
-  };
+  }, []);
 
-  const updateMap = () => {
+  const updateMap = useCallback(() => {
     const randomIndex = getPseudoRandomNumber();
     setSelectedMap(maps[randomIndex]);
-  };
+  }, [getPseudoRandomNumber]);
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -55,7 +55,7 @@ const CM = () => {
     }, 1000); // Update every second for the timer
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [updateMap]);
 
   return (
     <div className="text-center mt-12">

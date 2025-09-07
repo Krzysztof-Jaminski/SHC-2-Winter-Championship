@@ -1,10 +1,11 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 const VideoShowcase = ({ onVideoSectionChange }) => {
   const [activeVideo, setActiveVideo] = useState(0);
-  const [isInVideoSection, setIsInVideoSection] = useState(false);
+  const [isInVideoSection, setIsInVideoSection] = useState(true);
   const videoSectionRef = useRef(null);
 
   const videos = [
@@ -28,6 +29,9 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
 
   // Intersection Observer to detect when video section is in view
   useEffect(() => {
+    // Immediately hide navbar when component mounts
+    onVideoSectionChange?.(true);
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -46,13 +50,14 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
       }
     );
 
-    if (videoSectionRef.current) {
-      observer.observe(videoSectionRef.current);
+    const currentRef = videoSectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (videoSectionRef.current) {
-        observer.unobserve(videoSectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, [onVideoSectionChange]);
@@ -90,9 +95,11 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
               onClick={() => setActiveVideo(index)}
             >
               <div className="aspect-video rounded-xl overflow-hidden bg-black">
-                <img
+                <Image
                   src={getThumbnailUrl(video.id)}
                   alt="Tournament Video"
+                  width={480}
+                  height={270}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 
@@ -121,7 +128,7 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
         {/* Call to Action */}
         <div className="text-center mt-12">
           <p className="text-gray-400 mb-6">
-            Don't miss out on the action! Subscribe to our channel for more epic content.
+            Don&apos;t miss out on the action! Subscribe to our channel for more epic content.
           </p>
           <a
             href="https://www.youtube.com/@Letonetma"
