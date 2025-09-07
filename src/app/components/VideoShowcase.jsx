@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const VideoShowcase = ({ onVideoSectionChange }) => {
   const [activeVideo, setActiveVideo] = useState(0);
-  const [isInVideoSection, setIsInVideoSection] = useState(true);
+  const [isInVideoSection, setIsInVideoSection] = useState(false);
   const videoSectionRef = useRef(null);
 
   const videos = [
@@ -29,9 +29,6 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
 
   // Intersection Observer to detect when video section is in view
   useEffect(() => {
-    // Immediately hide navbar when component mounts
-    onVideoSectionChange?.(true);
-    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -45,8 +42,8 @@ const VideoShowcase = ({ onVideoSectionChange }) => {
         });
       },
       {
-        threshold: 0.1, // Trigger when only 10% of the section is visible
-        rootMargin: '-200px 0px -200px 0px' // Larger margin to delay navbar appearance
+        threshold: 0.3, // Trigger when 30% of the section is visible
+        rootMargin: '-100px 0px -100px 0px' // Smaller margin for better responsiveness
       }
     );
 

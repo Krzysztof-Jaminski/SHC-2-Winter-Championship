@@ -14,7 +14,7 @@ import MapsSection from "./components/MapsSection";
 import LeaderboardsSection from "./components/LeaderboardsSection";
 
 export default function Home() {
-  const [isInVideoSection, setIsInVideoSection] = useState(true);
+  const [isInVideoSection, setIsInVideoSection] = useState(false);
 
   const handleVideoSectionChange = (inVideoSection) => {
     setIsInVideoSection(inVideoSection);
@@ -24,9 +24,9 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col bg-[#121212]">
         <Navbar isHidden={isInVideoSection} />
-        <VideoShowcase onVideoSectionChange={handleVideoSectionChange} />
         <div className="container mt-10 mx-auto px-0 py-0">
           <HeroSection />
+          <VideoShowcase onVideoSectionChange={handleVideoSectionChange} />
           <AchievementsSection />
           <RulesSection />
           <MapsSection />
